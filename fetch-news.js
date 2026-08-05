@@ -8,51 +8,61 @@ const path = require('path');
 const parser = new Parser({
   timeout: 15000,
   headers: {
-    // هوية واضحة وصادقة للأداة — أدب في الوصول الآلي، مش تنكّر
     'User-Agent': 'Maeen-HR-NewsBot/1.0 (+https://example.com/about-this-bot; contact: your-email@example.com)'
   }
 });
 
-// المصادر المستهدفة. كل مصدر له علم "required" — لو required=true وفشل، يوقف السكربت بخطأ.
-// لو required=false (تجريبي)، أي فشل بيتسجل كتحذير بس ومكملين عادي.
 const SOURCES = [
   {
     id: 'hrsd',
     name: 'وزارة الموارد البشرية والتنمية الاجتماعية',
     url: 'https://www.hrsd.gov.sa/en/rss.xml',
-    required: true, // مصدر مؤكد شغّال
+    required: true,
   },
   {
     id: 'spa_economic',
     name: 'واس — الأخبار الاقتصادية',
     url: 'https://www.spa.gov.sa/rss5.xml',
-    required: false, // تجريبي — هنشوف هل هيعدي من سيرفر حقيقي ولا لأ
+    required: false,
   },
   {
     id: 'spa_general',
     name: 'واس — عام',
     url: 'https://www.spa.gov.sa/rss.xml',
-    required: false, // تجريبي
+    required: false,
   },
 ];
 
 async function fetchSource(source) {
   try {
     const feed = await parser.parseURL(source.url);
-    const items = (feed.items || []).slice(0, 20).map(item => ({
-      title: item.title || '',
-      link: item.link || '',
-      pubDate: item.pubDate || item.isoDate || '',
-      contentSnippet: (item.contentSnippet || item.content || '').slice(0, 400),
-      source: source.name,
-      sourceId: source.id,
-    }));
+    const items = (feed.items || []).slice(0, 20).map(item => {
+      let cleanTitle = item.title;
+      let cleanLink = item.link;
+
+      if (item.title && typeof item.title === 'object' && item.title.a && item.title.a[0]) {
+        const nested = item.title.a[0];
+        cleanTitle = nested._ || cleanTitle;
+        if (nested.$ && nested.$.href) cleanLink = nested.$.href;
+      }
+
+      const isInternalLink = typeof cleanLink === 'string' && cleanLink.includes('cluster.local');
+
+      return {
+        title: typeof cleanTitle === 'string' ? cleanTitle.trim() : (item.title || '').toString(),
+        link: isInternalLink ? '' : cleanLink,
+        pubDate: item.pubDate || item.isoDate || '',
+        contentSnippet: (item.contentSnippet || item.content || '').slice(0, 400),
+        source: source.name,
+        sourceId: source.id,
+      };
+    });
     console.log(`✅ ${source.name}: ${items.length} خبر`);
     return { ok: true, sourceId: source.id, items };
   } catch (err) {
     const level = source.required ? 'ERROR (مصدر أساسي)' : 'تحذير (مصدر تجريبي)';
     console.log(`❌ ${level} — ${source.name}: ${err.message}`);
-    if (source.required) throw err; // لو مصدر أساسي فشل، نوقف بخطأ واضح
+    if (source.required) throw err;
     return { ok: false, sourceId: source.id, items: [], error: err.message };
   }
 }
@@ -65,7 +75,6 @@ async function main() {
     results.push(await fetchSource(source));
   }
 
-  // دمج كل الأخبار الناجحة في قائمة واحدة، مرتبة بالأحدث
   const allItems = results
     .filter(r => r.ok)
     .flatMap(r => r.items)
