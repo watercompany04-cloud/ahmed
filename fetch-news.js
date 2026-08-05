@@ -56,9 +56,9 @@ const SOURCES = [
     required: true,
   },
   {
-    id: 'okaz_economy',
-    name: 'صحيفة عكاظ — اقتصاد',
-    url: 'https://www.okaz.com.sa/economy',
+    id: 'okaz_home',
+    name: 'صحيفة عكاظ',
+    url: 'https://www.okaz.com.sa/',
     type: 'newspaper',
     required: false,
   },
