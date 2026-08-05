@@ -1,0 +1,35 @@
+name: تحديث الأخبار كل 30 دقيقة
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # كل 30 دقيقة، على مدار الساعة، مجانًا بالكامل ضمن حد GitHub Actions المجاني
+  workflow_dispatch:          # يسمح بالتشغيل اليدوي فورًا من تبويب Actions لو حبيت تجرب بنفسك
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: تنزيل الكود
+        uses: actions/checkout@v4
+
+      - name: تجهيز Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: تثبيت المكتبات
+        run: npm install
+
+      - name: تشغيل محرك الرصد
+        run: node fetch-news.js
+
+      - name: حفظ النتيجة في المستودع
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add news-data.json
+          git diff --quiet --cached || git commit -m "تحديث الأخبار: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
