@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الأخبار الحيّة — معين HR</title>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@700;800&family=IBM+Plex+Sans+Arabic:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--forest-900:#0E2A22;--forest-700:#145C3E;--mint-400:#35D28A;--sand-50:#FAF7EF;--ink-900:#14201B;--ink-500:#5B6A62;--line:#E4DFD1}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--sand-50);color:var(--ink-900);font-family:'IBM Plex Sans Arabic',sans-serif;padding:24px}
+  h1{font-family:'Almarai',sans-serif;font-size:20px;margin-bottom:6px}
+  .status{font-size:12px;color:var(--ink-500);margin-bottom:20px;display:flex;align-items:center;gap:8px}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--mint-400)}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:10px}
+  .card h3{font-size:14px;margin-bottom:6px}
+  .card p{font-size:12.5px;color:var(--ink-500);line-height:1.8}
+  .meta{font-size:11px;color:var(--forest-700);margin-top:8px}
+  .empty{text-align:center;padding:40px;color:var(--ink-500)}
+</style>
+</head>
+<body>
+<h1>الأخبار الحيّة من المصادر الرسمية</h1>
+<div class="status"><span class="dot"></span><span id="statusText">جاري التحميل...</span></div>
+<div id="newsContainer"></div>
+
+<script>
+// هذا الملف يقرأ news-data.json اللي بيحدّثه GitHub Actions كل 30 دقيقة تلقائيًا
+fetch('./news-data.json')
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById('statusText').textContent =
+      'آخر تحديث: ' + new Date(data.lastUpdated).toLocaleString('ar-SA');
+
+    const container = document.getElementById('newsContainer');
+    if (!data.items || data.items.length === 0) {
+      container.innerHTML = '<div class="empty">لا توجد أخبار متاحة حاليًا</div>';
+      return;
+    }
+    container.innerHTML = data.items.map(item => `
+      <div class="card">
+        <h3>${item.title}</h3>
+        <p>${item.contentSnippet || ''}</p>
+        <div class="meta">${item.source} · ${new Date(item.pubDate).toLocaleDateString('ar-SA')}</div>
+      </div>
+    `).join('');
+  })
+  .catch(err => {
+    document.getElementById('statusText').textContent = 'لسه محرك الرصد ما اشتغلش أول مرة، أو الملف مش موجود بعد';
+  });
+</script>
+</body>
+</html>
