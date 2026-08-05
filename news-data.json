@@ -1,10 +1,16 @@
 {
-  "lastUpdated": "2026-08-05T05:33:42.990Z",
+  "lastUpdated": "2026-08-05T06:05:22.119Z",
   "sourcesStatus": [
     {
       "sourceId": "hrsd",
       "ok": true,
       "itemCount": 20,
+      "error": null
+    },
+    {
+      "sourceId": "okaz_economy",
+      "ok": true,
+      "itemCount": 0,
       "error": null
     },
     {
