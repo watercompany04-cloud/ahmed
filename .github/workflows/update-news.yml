@@ -23,9 +23,6 @@ jobs:
       - name: تثبيت المكتبات
         run: npm install
 
-      - name: تجهيز مكتبات النظام للمتصفح الآلي
-        run: npx puppeteer browsers install chrome
-
       - name: تشغيل محرك الرصد
         run: node fetch-news.js
 
