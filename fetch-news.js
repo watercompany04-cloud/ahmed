@@ -10,10 +10,12 @@ const path = require('path');
 const parser = new Parser({
   timeout: 15000,
   headers: {
+    // هوية واضحة وصادقة للأداة — أدب في الوصول الآلي، مش تنكّر
     'User-Agent': 'Maeen-HR-NewsBot/1.0 (+https://example.com/about-this-bot; contact: your-email@example.com)'
   }
 });
 
+// كلمات مفتاحية لفلترة أخبار الموارد البشرية من صفحات الصحف العامة (اللي مش نشرة HR متخصصة)
 const HR_KEYWORDS = ['موارد بشرية', 'عمالة', 'توطين', 'أجور', 'نطاقات', 'وظائف', 'التأمينات', 'استقدام', 'إقامة', 'رخص العمل', 'قوى', 'مدد', 'الضمان الاجتماعي', 'تجارة', 'شركات', 'القطاع الخاص', 'اقتصاد', 'سوق العمل'];
 
 function containsHrKeyword(text) {
@@ -32,10 +34,10 @@ async function fetchNewspaperSection(source) {
   $('a').each((_, el) => {
     const title = $(el).text().trim();
     const href = $(el).attr('href');
-    if (!title || !href || title.length < 15) return;
-    if (!containsHrKeyword(title)) return;
+    if (!title || !href || title.length < 15) return; // تجاهل روابط قصيرة (قوائم تنقل مش أخبار)
+    if (!containsHrKeyword(title)) return; // بس الأخبار المتعلقة بالموارد البشرية
     const fullLink = href.startsWith('http') ? href : new URL(href, source.url).toString();
-    if (items.some(i => i.link === fullLink)) return;
+    if (items.some(i => i.link === fullLink)) return; // تجنب التكرار
     items.push({
       title,
       link: fullLink,
@@ -48,6 +50,7 @@ async function fetchNewspaperSection(source) {
   return items.slice(0, 15);
 }
 
+// لمواقع الجافاسكريبت (SPA) اللي مش بتديك محتوى فعلي غير بعد ما المتصفح يشتغل ويحمّل الصفحة كاملة
 async function fetchJsRenderedTopicPage(source) {
   const browser = await puppeteer.launch({
     headless: true,
@@ -57,6 +60,7 @@ async function fetchJsRenderedTopicPage(source) {
     const page = await browser.newPage();
     await page.setUserAgent('Maeen-HR-NewsBot/1.0 (+https://example.com/about-this-bot)');
     await page.goto(source.url, { waitUntil: 'networkidle2', timeout: 30000 });
+    // ننتظر شوية إضافية لضمان تحميل قائمة المقالات فعليًا (بعض المواقع بتحمّل على دفعات)
     await new Promise(r => setTimeout(r, 3000));
 
     const links = await page.evaluate(() => {
@@ -86,13 +90,15 @@ async function fetchJsRenderedTopicPage(source) {
   }
 }
 
+// المصادر المستهدفة. كل مصدر له علم "required" — لو required=true وفشل، يوقف السكربت بخطأ.
+// لو required=false (تجريبي)، أي فشل بيتسجل كتحذير بس ومكملين عادي.
 const SOURCES = [
   {
     id: 'hrsd',
     name: 'وزارة الموارد البشرية والتنمية الاجتماعية',
     url: 'https://www.hrsd.gov.sa/en/rss.xml',
     type: 'rss',
-    required: true,
+    required: true, // مصدر مؤكد شغّال
   },
   // معطّل مؤقتًا: الروابط اللي بتطلع منه بترجع 404 — محتاج إصلاح طريقة استخراج الرابط الحقيقي
   // {
@@ -128,7 +134,9 @@ async function fetchSource(source) {
       items = await fetchJsRenderedTopicPage(source);
     } else {
       const feed = await parser.parseURL(source.url);
-      items = (feed.items || []).slice(0, 20).map(item => {
+      let rawItems = (feed.items || []).map(item => {
+        // بعض تغذيات RSS (زي HRSD) بتحط رابط وعنوان نظيف جوه بنية متداخلة title.a[0]
+        // بدل الحقول العادية (لأن الـ<link> بتاعهم بيرجع دومين داخلي مش عام)
         let cleanTitle = item.title;
         let cleanLink = item.link;
 
@@ -138,6 +146,7 @@ async function fetchSource(source) {
           if (nested.$ && nested.$.href) cleanLink = nested.$.href;
         }
 
+        // حماية إضافية: لو الرابط النهائي مازال داخلي (cluster.local)، منعرضوش للمستخدم
         const isInternalLink = typeof cleanLink === 'string' && cleanLink.includes('cluster.local');
 
         return {
@@ -156,7 +165,7 @@ async function fetchSource(source) {
   } catch (err) {
     const level = source.required ? 'ERROR (مصدر أساسي)' : 'تحذير (مصدر تجريبي)';
     console.log(`❌ ${level} — ${source.name}: ${err.message}`);
-    if (source.required) throw err;
+    if (source.required) throw err; // لو مصدر أساسي فشل، نوقف بخطأ واضح
     return { ok: false, sourceId: source.id, items: [], error: err.message };
   }
 }
@@ -169,6 +178,7 @@ async function main() {
     results.push(await fetchSource(source));
   }
 
+  // دمج كل الأخبار الناجحة في قائمة واحدة، مرتبة بالأحدث
   const allItems = results
     .filter(r => r.ok)
     .flatMap(r => r.items)
