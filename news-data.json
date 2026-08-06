@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T22:33:54.485Z",
+  "lastUpdated": "2026-08-06T05:12:03.942Z",
   "sourcesStatus": [
     {
       "sourceId": "hrsd",
@@ -8,22 +8,22 @@
       "error": null
     },
     {
-      "sourceId": "okaz_home",
+      "sourceId": "sabq_hrsd_topic",
       "ok": true,
-      "itemCount": 0,
+      "itemCount": 4,
       "error": null
     },
     {
       "sourceId": "spa_economic",
       "ok": false,
       "itemCount": 0,
-      "error": "Feed not recognized as RSS 1 or 2."
+      "error": "Status code 403"
     },
     {
       "sourceId": "spa_general",
       "ok": false,
       "itemCount": 0,
-      "error": "Feed not recognized as RSS 1 or 2."
+      "error": "Status code 403"
     }
   ],
   "items": [
@@ -186,6 +186,38 @@
       "contentSnippet": "تحرص وزارة الموارد البشرية والتنمية الاجتماعية على ترسيخ مفاهيم الوعي النظامي في سوق العمل، انطلاقًا من مسؤوليتها التنظيمية والتشريعية لتعزيز العلاقة التعاقدية بين العامل وصاحب العمل، وتحقيق الامتثال الكامل لأحكام نظام العمل ولائحته التنفيذية. ويعمل برنامج \"رفع الوعي بالثقافة العمالية\", على توضيح طبيعة بيئة وأساسيات العمل في المملكة، وبناء سوق عمل يُسهم في تنمية الموارد البشرية، ويقوم على قواعد را",
       "source": "وزارة الموارد البشرية والتنمية الاجتماعية",
       "sourceId": "hrsd"
+    },
+    {
+      "title": "انتقل إلى المحتوى الرئيسي",
+      "link": "https://sabq.org/topic/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9#main-content",
+      "pubDate": "",
+      "contentSnippet": "(من صفحة موضوع مخصصة للموارد البشرية على صحيفة سبق)",
+      "source": "صحيفة سبق — موضوع الموارد البشرية",
+      "sourceId": "sabq_hrsd_topic"
+    },
+    {
+      "title": "انتقل إلى القائمة",
+      "link": "https://sabq.org/topic/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9#main-nav",
+      "pubDate": "",
+      "contentSnippet": "(من صفحة موضوع مخصصة للموارد البشرية على صحيفة سبق)",
+      "source": "صحيفة سبق — موضوع الموارد البشرية",
+      "sourceId": "sabq_hrsd_topic"
+    },
+    {
+      "title": "انتقل إلى التذييل",
+      "link": "https://sabq.org/topic/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9#footer",
+      "pubDate": "",
+      "contentSnippet": "(من صفحة موضوع مخصصة للموارد البشرية على صحيفة سبق)",
+      "source": "صحيفة سبق — موضوع الموارد البشرية",
+      "sourceId": "sabq_hrsd_topic"
+    },
+    {
+      "title": "1\nفيديو.. لحظة القبض على طيار أضاع مستقبله مقابل 45 ألف ريال داخل المطار... هنا التفاصيل",
+      "link": "https://sabq.org/undefined",
+      "pubDate": "",
+      "contentSnippet": "(من صفحة موضوع مخصصة للموارد البشرية على صحيفة سبق)",
+      "source": "صحيفة سبق — موضوع الموارد البشرية",
+      "sourceId": "sabq_hrsd_topic"
     }
   ]
 }
