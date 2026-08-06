@@ -14,7 +14,7 @@ const parser = new Parser({
   }
 });
 
-const HR_KEYWORDS = ['موارد بشرية', 'عمالة', 'توطين', 'أجور', 'نطاقات', 'وظائف', 'التأمينات', 'استقدام', 'إقامة', 'رخص العمل', 'قوى', 'مدد', 'الضمان الاجتماعي'];
+const HR_KEYWORDS = ['موارد بشرية', 'عمالة', 'توطين', 'أجور', 'نطاقات', 'وظائف', 'التأمينات', 'استقدام', 'إقامة', 'رخص العمل', 'قوى', 'مدد', 'الضمان الاجتماعي', 'تجارة', 'شركات', 'القطاع الخاص', 'اقتصاد', 'سوق العمل'];
 
 function containsHrKeyword(text) {
   return HR_KEYWORDS.some(k => text.includes(k));
@@ -94,13 +94,14 @@ const SOURCES = [
     type: 'rss',
     required: true,
   },
-  {
-    id: 'sabq_hrsd_topic',
-    name: 'صحيفة سبق — موضوع الموارد البشرية',
-    url: 'https://sabq.org/topic/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9',
-    type: 'js_topic_page',
-    required: false,
-  },
+  // معطّل مؤقتًا: الروابط اللي بتطلع منه بترجع 404 — محتاج إصلاح طريقة استخراج الرابط الحقيقي
+  // {
+  //   id: 'sabq_hrsd_topic',
+  //   name: 'صحيفة سبق — موضوع الموارد البشرية',
+  //   url: 'https://sabq.org/topic/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9',
+  //   type: 'js_topic_page',
+  //   required: false,
+  // },
   {
     id: 'spa_economic',
     name: 'واس — الأخبار الاقتصادية',
