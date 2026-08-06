@@ -10,12 +10,10 @@ const path = require('path');
 const parser = new Parser({
   timeout: 15000,
   headers: {
-    // هوية واضحة وصادقة للأداة — أدب في الوصول الآلي، مش تنكّر
     'User-Agent': 'Maeen-HR-NewsBot/1.0 (+https://example.com/about-this-bot; contact: your-email@example.com)'
   }
 });
 
-// كلمات مفتاحية لفلترة أخبار الموارد البشرية من صفحات الصحف العامة (اللي مش نشرة HR متخصصة)
 const HR_KEYWORDS = ['موارد بشرية', 'عمالة', 'توطين', 'أجور', 'نطاقات', 'وظائف', 'التأمينات', 'استقدام', 'إقامة', 'رخص العمل', 'قوى', 'مدد', 'الضمان الاجتماعي', 'تجارة', 'شركات', 'القطاع الخاص', 'اقتصاد', 'سوق العمل'];
 
 function containsHrKeyword(text) {
@@ -34,10 +32,10 @@ async function fetchNewspaperSection(source) {
   $('a').each((_, el) => {
     const title = $(el).text().trim();
     const href = $(el).attr('href');
-    if (!title || !href || title.length < 15) return; // تجاهل روابط قصيرة (قوائم تنقل مش أخبار)
-    if (!containsHrKeyword(title)) return; // بس الأخبار المتعلقة بالموارد البشرية
+    if (!title || !href || title.length < 15) return;
+    if (!containsHrKeyword(title)) return;
     const fullLink = href.startsWith('http') ? href : new URL(href, source.url).toString();
-    if (items.some(i => i.link === fullLink)) return; // تجنب التكرار
+    if (items.some(i => i.link === fullLink)) return;
     items.push({
       title,
       link: fullLink,
@@ -50,7 +48,6 @@ async function fetchNewspaperSection(source) {
   return items.slice(0, 15);
 }
 
-// لمواقع الجافاسكريبت (SPA) اللي مش بتديك محتوى فعلي غير بعد ما المتصفح يشتغل ويحمّل الصفحة كاملة
 async function fetchJsRenderedTopicPage(source) {
   const browser = await puppeteer.launch({
     headless: true,
@@ -60,7 +57,6 @@ async function fetchJsRenderedTopicPage(source) {
     const page = await browser.newPage();
     await page.setUserAgent('Maeen-HR-NewsBot/1.0 (+https://example.com/about-this-bot)');
     await page.goto(source.url, { waitUntil: 'networkidle2', timeout: 30000 });
-    // ننتظر شوية إضافية لضمان تحميل قائمة المقالات فعليًا (بعض المواقع بتحمّل على دفعات)
     await new Promise(r => setTimeout(r, 3000));
 
     const links = await page.evaluate(() => {
@@ -90,24 +86,30 @@ async function fetchJsRenderedTopicPage(source) {
   }
 }
 
-// المصادر المستهدفة. كل مصدر له علم "required" — لو required=true وفشل، يوقف السكربت بخطأ.
-// لو required=false (تجريبي)، أي فشل بيتسجل كتحذير بس ومكملين عادي.
 const SOURCES = [
   {
     id: 'hrsd',
     name: 'وزارة الموارد البشرية والتنمية الاجتماعية',
     url: 'https://www.hrsd.gov.sa/en/rss.xml',
     type: 'rss',
-    required: true, // مصدر مؤكد شغّال
+    required: true,
   },
-  // معطّل مؤقتًا: الروابط اللي بتطلع منه بترجع 404 — محتاج إصلاح طريقة استخراج الرابط الحقيقي
-  // {
-  //   id: 'sabq_hrsd_topic',
-  //   name: 'صحيفة سبق — موضوع الموارد البشرية',
-  //   url: 'https://sabq.org/topic/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9',
-  //   type: 'js_topic_page',
-  //   required: false,
-  // },
+  {
+    id: 'okaz_rss',
+    name: 'صحيفة عكاظ',
+    url: 'https://www.okaz.com.sa/rssFeed/190',
+    type: 'rss',
+    filterByKeywords: true,
+    required: false,
+  },
+  {
+    id: 'alyaum_rss',
+    name: 'صحيفة اليوم',
+    url: 'https://www.alyaum.com/rssFeed/1',
+    type: 'rss',
+    filterByKeywords: true,
+    required: false,
+  },
   {
     id: 'spa_economic',
     name: 'واس — الأخبار الاقتصادية',
@@ -135,8 +137,6 @@ async function fetchSource(source) {
     } else {
       const feed = await parser.parseURL(source.url);
       let rawItems = (feed.items || []).map(item => {
-        // بعض تغذيات RSS (زي HRSD) بتحط رابط وعنوان نظيف جوه بنية متداخلة title.a[0]
-        // بدل الحقول العادية (لأن الـ<link> بتاعهم بيرجع دومين داخلي مش عام)
         let cleanTitle = item.title;
         let cleanLink = item.link;
 
@@ -146,7 +146,6 @@ async function fetchSource(source) {
           if (nested.$ && nested.$.href) cleanLink = nested.$.href;
         }
 
-        // حماية إضافية: لو الرابط النهائي مازال داخلي (cluster.local)، منعرضوش للمستخدم
         const isInternalLink = typeof cleanLink === 'string' && cleanLink.includes('cluster.local');
 
         return {
@@ -158,6 +157,12 @@ async function fetchSource(source) {
           sourceId: source.id,
         };
       });
+
+      if (source.filterByKeywords) {
+        items = rawItems.filter(i => containsHrKeyword(i.title) || containsHrKeyword(i.contentSnippet));
+      } else {
+        items = rawItems;
+      }
     }
 
     console.log(`✅ ${source.name}: ${items.length} خبر`);
@@ -165,7 +170,7 @@ async function fetchSource(source) {
   } catch (err) {
     const level = source.required ? 'ERROR (مصدر أساسي)' : 'تحذير (مصدر تجريبي)';
     console.log(`❌ ${level} — ${source.name}: ${err.message}`);
-    if (source.required) throw err; // لو مصدر أساسي فشل، نوقف بخطأ واضح
+    if (source.required) throw err;
     return { ok: false, sourceId: source.id, items: [], error: err.message };
   }
 }
@@ -178,7 +183,6 @@ async function main() {
     results.push(await fetchSource(source));
   }
 
-  // دمج كل الأخبار الناجحة في قائمة واحدة، مرتبة بالأحدث
   const allItems = results
     .filter(r => r.ok)
     .flatMap(r => r.items)
