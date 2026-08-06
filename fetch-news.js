@@ -3,6 +3,7 @@
 
 const Parser = require('rss-parser');
 const cheerio = require('cheerio');
+const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
@@ -47,6 +48,44 @@ async function fetchNewspaperSection(source) {
   return items.slice(0, 15);
 }
 
+async function fetchJsRenderedTopicPage(source) {
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  });
+  try {
+    const page = await browser.newPage();
+    await page.setUserAgent('Maeen-HR-NewsBot/1.0 (+https://example.com/about-this-bot)');
+    await page.goto(source.url, { waitUntil: 'networkidle2', timeout: 30000 });
+    await new Promise(r => setTimeout(r, 3000));
+
+    const links = await page.evaluate(() => {
+      return Array.from(document.querySelectorAll('a'))
+        .map(a => ({ title: a.innerText.trim(), href: a.href }))
+        .filter(x => x.title && x.title.length > 15);
+    });
+
+    const seen = new Set();
+    const items = [];
+    for (const l of links) {
+      if (seen.has(l.href)) continue;
+      if (l.href.match(/\/(login|register|about|contact|topic)\/?$/)) continue;
+      seen.add(l.href);
+      items.push({
+        title: l.title,
+        link: l.href,
+        pubDate: '',
+        contentSnippet: '(من صفحة موضوع مخصصة للموارد البشرية على صحيفة سبق)',
+        source: source.name,
+        sourceId: source.id,
+      });
+    }
+    return items.slice(0, 15);
+  } finally {
+    await browser.close();
+  }
+}
+
 const SOURCES = [
   {
     id: 'hrsd',
@@ -56,10 +95,10 @@ const SOURCES = [
     required: true,
   },
   {
-    id: 'okaz_home',
-    name: 'صحيفة عكاظ',
-    url: 'https://www.okaz.com.sa/',
-    type: 'newspaper',
+    id: 'sabq_hrsd_topic',
+    name: 'صحيفة سبق — موضوع الموارد البشرية',
+    url: 'https://sabq.org/topic/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9',
+    type: 'js_topic_page',
     required: false,
   },
   {
@@ -84,6 +123,8 @@ async function fetchSource(source) {
 
     if (source.type === 'newspaper') {
       items = await fetchNewspaperSection(source);
+    } else if (source.type === 'js_topic_page') {
+      items = await fetchJsRenderedTopicPage(source);
     } else {
       const feed = await parser.parseURL(source.url);
       items = (feed.items || []).slice(0, 20).map(item => {
