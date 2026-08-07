@@ -14,7 +14,12 @@ const parser = new Parser({
   }
 });
 
-const HR_KEYWORDS = ['موارد بشرية', 'عمالة', 'توطين', 'أجور', 'نطاقات', 'وظائف', 'التأمينات', 'استقدام', 'إقامة', 'رخص العمل', 'قوى', 'مدد', 'الضمان الاجتماعي', 'تجارة', 'شركات', 'القطاع الخاص', 'اقتصاد', 'سوق العمل'];
+const HR_KEYWORDS = [
+  'موارد بشرية', 'عمالة', 'توطين', 'أجور', 'نطاقات', 'وظائف', 'التأمينات الاجتماعية',
+  'استقدام', 'رخص العمل', 'منصة قوى', 'منصة مدد', 'الضمان الاجتماعي', 'سوق العمل',
+  'القطاع الخاص', 'الغرفة التجارية', 'رجال الأعمال', 'المنشآت الصغيرة والمتوسطة',
+  'التقاعد', 'مكافأة نهاية الخدمة', 'إجازة سنوية', 'عقد العمل', 'صاحب العمل',
+];
 
 function containsHrKeyword(text) {
   return HR_KEYWORDS.some(k => text.includes(k));
@@ -98,6 +103,14 @@ const SOURCES = [
     id: 'okaz_rss',
     name: 'صحيفة عكاظ',
     url: 'https://www.okaz.com.sa/rssFeed/190',
+    type: 'rss',
+    filterByKeywords: true,
+    required: false,
+  },
+  {
+    id: 'almadina_rss',
+    name: 'صحيفة المدينة',
+    url: 'https://al-madina.com/rssFeed/193',
     type: 'rss',
     filterByKeywords: true,
     required: false,
