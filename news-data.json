@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T11:07:33.471Z",
+  "lastUpdated": "2026-08-07T01:45:06.554Z",
   "sourcesStatus": [
     {
       "sourceId": "hrsd",
@@ -23,13 +23,13 @@
       "sourceId": "spa_economic",
       "ok": false,
       "itemCount": 0,
-      "error": "Status code 403"
+      "error": "Feed not recognized as RSS 1 or 2."
     },
     {
       "sourceId": "spa_general",
       "ok": false,
       "itemCount": 0,
-      "error": "Status code 403"
+      "error": "Feed not recognized as RSS 1 or 2."
     }
   ],
   "items": [
