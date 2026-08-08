@@ -263,6 +263,8 @@ async function main() {
   const outPath = path.join(__dirname, 'news-data.json');
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2), 'utf-8');
   console.log(`--- انتهت الدورة. إجمالي الأخبار: ${allItems.length}. حُفظت في ${outPath} ---`);
+
+  process.exit(0);
 }
 
 main().catch(err => {
