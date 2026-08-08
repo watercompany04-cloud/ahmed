@@ -25,6 +25,12 @@ function containsHrKeyword(text) {
   return HR_KEYWORDS.some(k => text.includes(k));
 }
 
+function isRelevantByScore(title, snippet) {
+  const titleHits = HR_KEYWORDS.filter(k => title.includes(k)).length;
+  const snippetHits = HR_KEYWORDS.filter(k => snippet.includes(k)).length;
+  return titleHits >= 1 || snippetHits >= 2;
+}
+
 async function fetchNewspaperSection(source) {
   const res = await fetch(source.url, {
     headers: { 'User-Agent': 'Maeen-HR-NewsBot/1.0 (+https://example.com/about-this-bot)' }
@@ -172,7 +178,7 @@ async function fetchSource(source) {
       });
 
       if (source.filterByKeywords) {
-        items = rawItems.filter(i => containsHrKeyword(i.title) || containsHrKeyword(i.contentSnippet));
+        items = rawItems.filter(i => isRelevantByScore(i.title, i.contentSnippet));
       } else {
         items = rawItems;
       }
@@ -188,6 +194,43 @@ async function fetchSource(source) {
   }
 }
 
+const CANDIDATE_DOMAINS = [
+  'https://www.alriyadh.com',
+  'https://www.albiladdaily.com',
+  'https://www.aleqt.com',
+  'https://www.arabnews.com',
+  'https://saudigazette.com.sa',
+];
+const CANDIDATE_PATHS = ['/rssFeed/1', '/rssFeed/2', '/rssFeed/3', '/feed', '/rss.xml', '/rss'];
+
+async function discoverCandidateSources() {
+  const discovered = [];
+  for (const domain of CANDIDATE_DOMAINS) {
+    let foundForThisDomain = false;
+    for (const p of CANDIDATE_PATHS) {
+      if (foundForThisDomain) break;
+      const url = domain + p;
+      try {
+        const feed = await parser.parseURL(url);
+        if (feed.items && feed.items.length > 0) {
+          discovered.push({
+            domain,
+            workingUrl: url,
+            itemCount: feed.items.length,
+            sampleTitle: (feed.items[0].title || '').toString().slice(0, 100),
+          });
+          console.log(`🔍 اكتشاف جديد: ${domain} → ${url} (${feed.items.length} عنصر)`);
+          foundForThisDomain = true;
+        }
+      } catch (e) {}
+    }
+    if (!foundForThisDomain) {
+      console.log(`🔍 لا يوجد رابط RSS شغّال لـ ${domain} من الأنماط المجرَّبة`);
+    }
+  }
+  return discovered;
+}
+
 async function main() {
   console.log('--- بدء دورة الرصد ---', new Date().toISOString());
 
@@ -195,6 +238,10 @@ async function main() {
   for (const source of SOURCES) {
     results.push(await fetchSource(source));
   }
+
+  console.log('--- بدء الاكتشاف التلقائي لمصادر جديدة ---');
+  const discoveredCandidates = await discoverCandidateSources();
+  console.log(`--- انتهى الاكتشاف. ${discoveredCandidates.length} مصدر مرشّح جديد ---`);
 
   const allItems = results
     .filter(r => r.ok)
@@ -209,6 +256,7 @@ async function main() {
       itemCount: r.items.length,
       error: r.error || null,
     })),
+    discoveredCandidates,
     items: allItems,
   };
 
