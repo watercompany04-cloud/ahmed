@@ -31,6 +31,27 @@ function isRelevantByScore(title, snippet) {
   return titleHits >= 1 || snippetHits >= 2;
 }
 
+function parseDateSafe(dateStr) {
+  if (!dateStr) return null;
+  let d = new Date(dateStr);
+  if (!isNaN(d.getTime())) return d;
+  const match = dateStr.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+  if (match) {
+    const [, month, day, year] = match;
+    d = new Date(`${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`);
+    if (!isNaN(d.getTime())) return d;
+  }
+  return null;
+}
+
+function isFreshEnough(dateStr, maxMonths) {
+  const d = parseDateSafe(dateStr);
+  if (!d) return false;
+  const cutoff = new Date();
+  cutoff.setMonth(cutoff.getMonth() - maxMonths);
+  return d >= cutoff;
+}
+
 async function fetchNewspaperSection(source) {
   const res = await fetch(source.url, {
     headers: { 'User-Agent': 'Maeen-HR-NewsBot/1.0 (+https://example.com/about-this-bot)' }
@@ -122,9 +143,41 @@ const SOURCES = [
     required: false,
   },
   {
-    id: 'alyaum_rss',
-    name: 'صحيفة اليوم',
-    url: 'https://www.alyaum.com/rssFeed/1',
+    id: 'albilad_rss',
+    name: 'صحيفة البلاد',
+    url: 'https://www.albiladdaily.com/feed',
+    type: 'rss',
+    filterByKeywords: true,
+    required: false,
+  },
+  {
+    id: 'arabnews_rss',
+    name: 'Arab News',
+    url: 'https://www.arabnews.com/rss.xml',
+    type: 'rss',
+    filterByKeywords: true,
+    required: false,
+  },
+  {
+    id: 'aljazirah_rss',
+    name: 'صحيفة الجزيرة',
+    url: 'https://www.al-jazirah.com/rss/ln.xml',
+    type: 'rss',
+    filterByKeywords: true,
+    required: false,
+  },
+  {
+    id: 'aawsat_rss',
+    name: 'صحيفة الشرق الأوسط',
+    url: 'https://aawsat.com/feed',
+    type: 'rss',
+    filterByKeywords: true,
+    required: false,
+  },
+  {
+    id: 'sauress_rss',
+    name: 'صوريس (مجمّع أخبار سعودي)',
+    url: 'https://sauress.com/en/rss',
     type: 'rss',
     filterByKeywords: true,
     required: false,
@@ -196,10 +249,16 @@ async function fetchSource(source) {
 
 const CANDIDATE_DOMAINS = [
   'https://www.alriyadh.com',
-  'https://www.albiladdaily.com',
   'https://www.aleqt.com',
-  'https://www.arabnews.com',
   'https://saudigazette.com.sa',
+  'https://www.alwatan.com.sa',
+  'https://www.alyaum.com',
+  'https://makkahnewspaper.com',
+  'https://www.almarsd.com',
+  'https://almowaten.net',
+  'https://uqn.gov.sa',
+  'https://sabq.org',
+  'https://akhbaar24.com',
 ];
 const CANDIDATE_PATHS = ['/rssFeed/1', '/rssFeed/2', '/rssFeed/3', '/feed', '/rss.xml', '/rss'];
 
@@ -243,13 +302,19 @@ async function main() {
   const discoveredCandidates = await discoverCandidateSources();
   console.log(`--- انتهى الاكتشاف. ${discoveredCandidates.length} مصدر مرشّح جديد ---`);
 
-  const allItems = results
-    .filter(r => r.ok)
-    .flatMap(r => r.items)
-    .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  const allItemsRaw = results.filter(r => r.ok).flatMap(r => r.items);
+
+  const FRESHNESS_MONTHS = 4;
+  const freshItems = allItemsRaw
+    .filter(i => isFreshEnough(i.pubDate, FRESHNESS_MONTHS))
+    .sort((a, b) => parseDateSafe(b.pubDate) - parseDateSafe(a.pubDate));
+
+  const droppedForOldOrUnknownDate = allItemsRaw.length - freshItems.length;
+  console.log(`--- فلتر الحداثة (${FRESHNESS_MONTHS} شهور): احتفظنا بـ ${freshItems.length} من ${allItemsRaw.length}، استُبعد ${droppedForOldOrUnknownDate} (قديم أو تاريخه غير واضح) ---`);
 
   const output = {
     lastUpdated: new Date().toISOString(),
+    freshnessPolicy: `آخر ${FRESHNESS_MONTHS} شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا`,
     sourcesStatus: results.map(r => ({
       sourceId: r.sourceId,
       ok: r.ok,
@@ -257,12 +322,13 @@ async function main() {
       error: r.error || null,
     })),
     discoveredCandidates,
-    items: allItems,
+    droppedForFreshness: droppedForOldOrUnknownDate,
+    items: freshItems,
   };
 
   const outPath = path.join(__dirname, 'news-data.json');
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2), 'utf-8');
-  console.log(`--- انتهت الدورة. إجمالي الأخبار: ${allItems.length}. حُفظت في ${outPath} ---`);
+  console.log(`--- انتهت الدورة. إجمالي الأخبار الطازجة: ${freshItems.length}. حُفظت في ${outPath} ---`);
 
   process.exit(0);
 }
