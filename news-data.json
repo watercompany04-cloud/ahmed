@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T14:08:29.096Z",
+  "lastUpdated": "2026-08-09T15:59:51.458Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -74,7 +74,7 @@
       "domain": "https://www.alwatan.com.sa",
       "workingUrl": "https://www.alwatan.com.sa/rssFeed/1",
       "itemCount": 50,
-      "sampleTitle": "رئيس الهيئة السعودية للمياه يتفقد 4 مشروعات لإنتاج المياه المحلاة في الجبيل ورأس الخير"
+      "sampleTitle": "التأهيل يمنح الطلاب فرصا جديدة للقبول في الجامعات"
     },
     {
       "domain": "https://www.alyaum.com",
@@ -86,7 +86,7 @@
       "domain": "https://almowaten.net",
       "workingUrl": "https://almowaten.net/feed",
       "itemCount": 30,
-      "sampleTitle": "موعد صرف دعم حساب المواطن لشهر أغسطس "
+      "sampleTitle": "منصة قبول تتيح التقديم على المقاعد الشاغرة بالجامعات الحكومية والتدريب التقني"
     }
   ],
   "droppedForFreshness": 27,
