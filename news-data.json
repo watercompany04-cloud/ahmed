@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T00:02:52.932Z",
+  "lastUpdated": "2026-08-09T04:50:31.469Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -41,7 +41,7 @@
     {
       "sourceId": "aawsat_rss",
       "ok": true,
-      "itemCount": 5,
+      "itemCount": 4,
       "error": null
     },
     {
@@ -68,7 +68,7 @@
       "domain": "https://www.alwatan.com.sa",
       "workingUrl": "https://www.alwatan.com.sa/rssFeed/1",
       "itemCount": 50,
-      "sampleTitle": "مجلس الشؤون الاقتصادية والتنمية يعقد اجتماعا عبر الاتصال المرئي"
+      "sampleTitle": "التأهيل يمنح الطلاب فرصا جديدة للقبول في الجامعات"
     },
     {
       "domain": "https://www.alyaum.com",
@@ -108,14 +108,6 @@
       "link": "https://aawsat.com/node/5304462",
       "pubDate": "Fri, 07 Aug 2026 14:11:04 +0100 ",
       "contentSnippet": "سجل الاقتصاد الأميركي انخفاضاً غير متوقع في الوظائف خلال يوليو (تموز)، فيما جرى تعديل بيانات الوظائف غير الزراعية للشهر السابق بالخفض بشكل حاد.",
-      "source": "صحيفة الشرق الأوسط",
-      "sourceId": "aawsat_rss"
-    },
-    {
-      "title": "العقود الآجلة للأسهم الأميركية ترتفع قبيل بيانات الوظائف",
-      "link": "https://aawsat.com/node/5304447",
-      "pubDate": "Fri, 07 Aug 2026 13:27:09 +0100 ",
-      "contentSnippet": "ارتفعت العقود الآجلة للأسهم الأميركية بشكل طفيف يوم الجمعة، وسط ترقب المستثمرين لتقرير الوظائف الأميركي المهم، الذي يُتوقع أن يقدم مؤشرات بشأن مسار الفائدة.",
       "source": "صحيفة الشرق الأوسط",
       "sourceId": "aawsat_rss"
     },
