@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T11:56:11.301Z",
+  "lastUpdated": "2026-08-09T14:08:29.096Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -74,13 +74,19 @@
       "domain": "https://www.alwatan.com.sa",
       "workingUrl": "https://www.alwatan.com.sa/rssFeed/1",
       "itemCount": 50,
-      "sampleTitle": "التأهيل يمنح الطلاب فرصا جديدة للقبول في الجامعات"
+      "sampleTitle": "رئيس الهيئة السعودية للمياه يتفقد 4 مشروعات لإنتاج المياه المحلاة في الجبيل ورأس الخير"
     },
     {
       "domain": "https://www.alyaum.com",
       "workingUrl": "https://www.alyaum.com/rssFeed/3",
       "itemCount": 50,
       "sampleTitle": "مهمة صعبة لقطبي مانشستر في «الأبطال»"
+    },
+    {
+      "domain": "https://almowaten.net",
+      "workingUrl": "https://almowaten.net/feed",
+      "itemCount": 30,
+      "sampleTitle": "موعد صرف دعم حساب المواطن لشهر أغسطس "
     }
   ],
   "droppedForFreshness": 27,
