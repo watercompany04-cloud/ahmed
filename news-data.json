@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T15:59:51.458Z",
+  "lastUpdated": "2026-08-09T17:50:42.745Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -86,7 +86,7 @@
       "domain": "https://almowaten.net",
       "workingUrl": "https://almowaten.net/feed",
       "itemCount": 30,
-      "sampleTitle": "منصة قبول تتيح التقديم على المقاعد الشاغرة بالجامعات الحكومية والتدريب التقني"
+      "sampleTitle": "أمطار وصواعق على أجزاء من منطقة الرياض"
     }
   ],
   "droppedForFreshness": 27,
