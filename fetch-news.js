@@ -80,6 +80,34 @@ async function fetchNewspaperSection(source) {
   return items.slice(0, 15);
 }
 
+async function fetchGovAgencyPage(source) {
+  const res = await fetch(source.url, {
+    headers: { 'User-Agent': 'Maeen-HR-NewsBot/1.0 (+https://example.com/about-this-bot)' }
+  });
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const html = await res.text();
+  const $ = cheerio.load(html);
+
+  const items = [];
+  $('a').each((_, el) => {
+    const title = $(el).text().trim();
+    const href = $(el).attr('href');
+    if (!title || !href || title.length < 15) return;
+    if (title.includes('عرض المزيد') || title.includes('اقرأ')) return;
+    const fullLink = href.startsWith('http') ? href : new URL(href, source.url).toString();
+    if (items.some(i => i.link === fullLink)) return;
+    items.push({
+      title,
+      link: fullLink,
+      pubDate: '',
+      contentSnippet: `(خبر رسمي من ${source.name} — راجع الرابط للتفاصيل الكاملة)`,
+      source: source.name,
+      sourceId: source.id,
+    });
+  });
+  return items.slice(0, 20);
+}
+
 async function fetchJsRenderedTopicPage(source) {
   const browser = await puppeteer.launch({
     headless: true,
@@ -125,6 +153,13 @@ const SOURCES = [
     url: 'https://www.hrsd.gov.sa/en/rss.xml',
     type: 'rss',
     required: true,
+  },
+  {
+    id: 'gosi',
+    name: 'التأمينات الاجتماعية (GOSI)',
+    url: 'https://www.gosi.gov.sa/GOSIOnline/News',
+    type: 'gov_agency',
+    required: false,
   },
   {
     id: 'okaz_rss',
@@ -204,6 +239,8 @@ async function fetchSource(source) {
 
     if (source.type === 'newspaper') {
       items = await fetchNewspaperSection(source);
+    } else if (source.type === 'gov_agency') {
+      items = await fetchGovAgencyPage(source);
     } else if (source.type === 'js_topic_page') {
       items = await fetchJsRenderedTopicPage(source);
     } else {
@@ -310,7 +347,7 @@ async function main() {
     .sort((a, b) => parseDateSafe(b.pubDate) - parseDateSafe(a.pubDate));
 
   const droppedForOldOrUnknownDate = allItemsRaw.length - freshItems.length;
-  console.log(`--- فلتر الحداثة (${FRESHNESS_MONTHS} شهور): احتفظنا بـ ${freshItems.length} من ${allItemsRaw.length}، استُبعد ${droppedForOldOrUnknownDate} (قديم أو تاريخه غير واضح) ---`);
+  console.log(`--- فلتر الحداثة (${FRESHNESS_MONTHS} شهور): احتفظنا بـ ${freshItems.length} من ${allItemsRaw.length}، استُبعد ${droppedForOldOrUnknownDate} ---`);
 
   const output = {
     lastUpdated: new Date().toISOString(),
