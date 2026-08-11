@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T10:27:34.022Z",
+  "lastUpdated": "2026-08-11T11:34:11.479Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -10,9 +10,9 @@
     },
     {
       "sourceId": "gosi",
-      "ok": false,
-      "itemCount": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "itemCount": 20,
+      "error": null
     },
     {
       "sourceId": "okaz_rss",
@@ -88,7 +88,7 @@
     }
   ],
   "discoveredCandidates": [],
-  "droppedForFreshness": 7,
+  "droppedForFreshness": 27,
   "items": [
     {
       "title": "شركة البحر الأحمر تعلن عن وظائف شاغرة",
