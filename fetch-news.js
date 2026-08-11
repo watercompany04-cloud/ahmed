@@ -37,8 +37,11 @@ function parseDateSafe(dateStr) {
   if (!isNaN(d.getTime())) return d;
   const match = dateStr.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
   if (match) {
-    const [, month, day, year] = match;
-    d = new Date(`${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`);
+    let [, first, second, year] = match;
+    first = parseInt(first, 10);
+    second = parseInt(second, 10);
+    const [month, day] = first > 12 ? [second, first] : [first, second];
+    d = new Date(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`);
     if (!isNaN(d.getTime())) return d;
   }
   return null;
@@ -96,10 +99,16 @@ async function fetchGovAgencyPage(source) {
     if (title.includes('عرض المزيد') || title.includes('اقرأ')) return;
     const fullLink = href.startsWith('http') ? href : new URL(href, source.url).toString();
     if (items.some(i => i.link === fullLink)) return;
+
+    let pubDate = '';
+    const containerText = $(el).closest('div, article, li, section').text();
+    const dateMatch = containerText.match(/\b(\d{1,2})\/(\d{1,2})\/(\d{4})\b/);
+    if (dateMatch) pubDate = dateMatch[0];
+
     items.push({
       title,
       link: fullLink,
-      pubDate: '',
+      pubDate,
       contentSnippet: `(خبر رسمي من ${source.name} — راجع الرابط للتفاصيل الكاملة)`,
       source: source.name,
       sourceId: source.id,
@@ -218,6 +227,30 @@ const SOURCES = [
     required: false,
   },
   {
+    id: 'alwatan_rss',
+    name: 'صحيفة الوطن',
+    url: 'https://www.alwatan.com.sa/rssFeed/1',
+    type: 'rss',
+    filterByKeywords: true,
+    required: false,
+  },
+  {
+    id: 'alyaum_rss2',
+    name: 'صحيفة اليوم',
+    url: 'https://www.alyaum.com/rssFeed/3',
+    type: 'rss',
+    filterByKeywords: true,
+    required: false,
+  },
+  {
+    id: 'almowaten_rss',
+    name: 'صحيفة المواطن',
+    url: 'https://almowaten.net/feed',
+    type: 'rss',
+    filterByKeywords: true,
+    required: false,
+  },
+  {
     id: 'spa_economic',
     name: 'واس — الأخبار الاقتصادية',
     url: 'https://www.spa.gov.sa/rss5.xml',
@@ -288,11 +321,8 @@ const CANDIDATE_DOMAINS = [
   'https://www.alriyadh.com',
   'https://www.aleqt.com',
   'https://saudigazette.com.sa',
-  'https://www.alwatan.com.sa',
-  'https://www.alyaum.com',
   'https://makkahnewspaper.com',
   'https://www.almarsd.com',
-  'https://almowaten.net',
   'https://uqn.gov.sa',
   'https://sabq.org',
   'https://akhbaar24.com',
