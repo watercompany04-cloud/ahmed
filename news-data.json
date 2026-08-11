@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T11:34:11.479Z",
+  "lastUpdated": "2026-08-11T15:32:29.960Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -70,9 +70,9 @@
     },
     {
       "sourceId": "almowaten_rss",
-      "ok": true,
-      "itemCount": 1,
-      "error": null
+      "ok": false,
+      "itemCount": 0,
+      "error": "Status code 503"
     },
     {
       "sourceId": "spa_economic",
@@ -90,14 +90,6 @@
   "discoveredCandidates": [],
   "droppedForFreshness": 27,
   "items": [
-    {
-      "title": "شركة البحر الأحمر تعلن عن وظائف شاغرة",
-      "link": "https://www.almowaten.net/2026/08/%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%AA%D8%B9%D9%84%D9%86-%D8%B9%D9%86-%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%B4%D8%A7%D8%BA%D8%B1%D8%A9/",
-      "pubDate": "Mon, 10 Aug 2026 19:17:57 GMT",
-      "contentSnippet": "",
-      "source": "صحيفة المواطن",
-      "sourceId": "almowaten_rss"
-    },
     {
       "title": "الحقيل: مشاركة القطاع الخاص تدعم الإسكان التنموي",
       "link": "https://www.alwatan.com.sa/article/1183875",
