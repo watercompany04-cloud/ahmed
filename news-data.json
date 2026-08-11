@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T10:19:15.950Z",
+  "lastUpdated": "2026-08-11T10:27:34.022Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -10,9 +10,9 @@
     },
     {
       "sourceId": "gosi",
-      "ok": true,
-      "itemCount": 20,
-      "error": null
+      "ok": false,
+      "itemCount": 0,
+      "error": "fetch failed"
     },
     {
       "sourceId": "okaz_rss",
@@ -57,6 +57,24 @@
       "error": "Status code 523"
     },
     {
+      "sourceId": "alwatan_rss",
+      "ok": true,
+      "itemCount": 2,
+      "error": null
+    },
+    {
+      "sourceId": "alyaum_rss2",
+      "ok": true,
+      "itemCount": 0,
+      "error": null
+    },
+    {
+      "sourceId": "almowaten_rss",
+      "ok": true,
+      "itemCount": 1,
+      "error": null
+    },
+    {
       "sourceId": "spa_economic",
       "ok": false,
       "itemCount": 0,
@@ -69,28 +87,33 @@
       "error": "Feed not recognized as RSS 1 or 2."
     }
   ],
-  "discoveredCandidates": [
-    {
-      "domain": "https://www.alwatan.com.sa",
-      "workingUrl": "https://www.alwatan.com.sa/rssFeed/1",
-      "itemCount": 50,
-      "sampleTitle": "استمرارية الفرص تحسم مفاضلات القبول الجامعي"
-    },
-    {
-      "domain": "https://www.alyaum.com",
-      "workingUrl": "https://www.alyaum.com/rssFeed/3",
-      "itemCount": 50,
-      "sampleTitle": "مهمة صعبة لقطبي مانشستر في «الأبطال»"
-    },
-    {
-      "domain": "https://almowaten.net",
-      "workingUrl": "https://almowaten.net/feed",
-      "itemCount": 30,
-      "sampleTitle": "انتهاء مدة تسجيل العقارات لـ 204 قطع عقارية في منطقتي مكة المكرمة والشرقية"
-    }
-  ],
-  "droppedForFreshness": 27,
+  "discoveredCandidates": [],
+  "droppedForFreshness": 7,
   "items": [
+    {
+      "title": "شركة البحر الأحمر تعلن عن وظائف شاغرة",
+      "link": "https://www.almowaten.net/2026/08/%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%AA%D8%B9%D9%84%D9%86-%D8%B9%D9%86-%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%B4%D8%A7%D8%BA%D8%B1%D8%A9/",
+      "pubDate": "Mon, 10 Aug 2026 19:17:57 GMT",
+      "contentSnippet": "",
+      "source": "صحيفة المواطن",
+      "sourceId": "almowaten_rss"
+    },
+    {
+      "title": "الحقيل: مشاركة القطاع الخاص تدعم الإسكان التنموي",
+      "link": "https://www.alwatan.com.sa/article/1183875",
+      "pubDate": "Wed, 05 Aug 2026 21:24:00 +0300",
+      "contentSnippet": "رفع وزير البلديات والإسكان ماجد بن عبدالله الحقيل، الشكر لخادم الحرمين الشريفين الملك سلمان بن عبدالعزيز، ولولي العهد رئيس مجلس الوزراء الأمير محمد بن سلمان، بمناسبة موافقة مجلس الوزراء على تعديل قرار مجلس الوزراء رقم 200 بشأن تطوير الأراضي المخططة والمخصصة لبرامج الدعم السكني؛ بما يعزز الشراكة مع القطاع الخاص، ويزيد المعروض السكني، ويوفر وحدات سكنية لمستفيدي الإسكان التنموي.زيادة المعروضأوضح الوز",
+      "source": "صحيفة الوطن",
+      "sourceId": "alwatan_rss"
+    },
+    {
+      "title": "التدريب التعاوني جسر بين الجامعة وسوق العمل",
+      "link": "https://www.alwatan.com.sa/article/1183815",
+      "pubDate": "Tue, 04 Aug 2026 22:20:00 +0300",
+      "contentSnippet": "أتاحت وزارة السياحة منظومة متكاملة من البرامج التدريبية والتأهيلية وفرص التوظيف، الهادفة إلى استقطاب الكفاءات الوطنية ورفع جاهزيتها لسوق العمل، بما يدعم احتياجات القطاع ويواكب مستهدفات رؤية السعودية 2030.وفي هذا الإطار، أطلقت الوزارة برنامج التدريب التعاوني للفصل الدراسي الأول من العام الجامعي 2026/2027، لتمكين طلاب الجامعات من اكتساب الخبرات العملية، وتعزيز جاهزيتهم لسوق العمل من خلال تجربة مهنية",
+      "source": "صحيفة الوطن",
+      "sourceId": "alwatan_rss"
+    },
     {
       "title": "الوزارة تنظّم ورشة “مسرعة المهارات” بالشراكة مع غرفة الرياض",
       "link": "https://www.hrsd.gov.sa/media-center/news/%D9%88%D8%B1%D8%B4%D8%A9-%D9%85%D8%B3%D8%B1%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%87%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D9%85%D8%B9-%D8%BA%D8%B1%D9%81%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
