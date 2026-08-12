@@ -55,6 +55,11 @@ function isFreshEnough(dateStr, maxMonths) {
   return d >= cutoff;
 }
 
+function isFreshOrTrustedOrder(item, maxMonths) {
+  if (item.sourceType === 'gov_agency') return true;
+  return isFreshEnough(item.pubDate, maxMonths);
+}
+
 async function fetchNewspaperSection(source) {
   const res = await fetch(source.url, {
     headers: { 'User-Agent': 'Maeen-HR-NewsBot/1.0 (+https://example.com/about-this-bot)' }
@@ -112,6 +117,7 @@ async function fetchGovAgencyPage(source) {
       contentSnippet: `(خبر رسمي من ${source.name} — راجع الرابط للتفاصيل الكاملة)`,
       source: source.name,
       sourceId: source.id,
+      sourceType: 'gov_agency',
     });
   });
   return items.slice(0, 20);
@@ -373,8 +379,8 @@ async function main() {
 
   const FRESHNESS_MONTHS = 4;
   const freshItems = allItemsRaw
-    .filter(i => isFreshEnough(i.pubDate, FRESHNESS_MONTHS))
-    .sort((a, b) => parseDateSafe(b.pubDate) - parseDateSafe(a.pubDate));
+    .filter(i => isFreshOrTrustedOrder(i, FRESHNESS_MONTHS))
+    .sort((a, b) => (parseDateSafe(b.pubDate) || new Date(0)) - (parseDateSafe(a.pubDate) || new Date(0)));
 
   const droppedForOldOrUnknownDate = allItemsRaw.length - freshItems.length;
   console.log(`--- فلتر الحداثة (${FRESHNESS_MONTHS} شهور): احتفظنا بـ ${freshItems.length} من ${allItemsRaw.length}، استُبعد ${droppedForOldOrUnknownDate} ---`);
