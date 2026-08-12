@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T08:55:38.324Z",
+  "lastUpdated": "2026-08-12T11:36:11.508Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -71,7 +71,7 @@
     {
       "sourceId": "almowaten_rss",
       "ok": true,
-      "itemCount": 1,
+      "itemCount": 0,
       "error": null
     },
     {
@@ -90,14 +90,6 @@
   "discoveredCandidates": [],
   "droppedForFreshness": 7,
   "items": [
-    {
-      "title": "خطوات الاستعلام عن مبلغ الضمان الاجتماعي",
-      "link": "https://www.almowaten.net/2026/08/%D8%AE%D8%B7%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D9%84%D8%A7%D9%85-%D8%B9%D9%86-%D9%85%D8%A8%D9%84%D8%BA-%D8%A7%D9%84%D8%B6%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A/",
-      "pubDate": "Tue, 11 Aug 2026 17:29:23 GMT",
-      "contentSnippet": "",
-      "source": "صحيفة المواطن",
-      "sourceId": "almowaten_rss"
-    },
     {
       "title": "الحقيل: مشاركة القطاع الخاص تدعم الإسكان التنموي",
       "link": "https://www.alwatan.com.sa/article/1183875",
