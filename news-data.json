@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T04:31:55.652Z",
+  "lastUpdated": "2026-08-12T05:58:41.372Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -29,7 +29,7 @@
     {
       "sourceId": "albilad_rss",
       "ok": true,
-      "itemCount": 1,
+      "itemCount": 0,
       "error": null
     },
     {
@@ -88,16 +88,8 @@
     }
   ],
   "discoveredCandidates": [],
-  "droppedForFreshness": 27,
+  "droppedForFreshness": 7,
   "items": [
-    {
-      "title": "تشمل صناعة أجهزة إنذار سيارات الأمن وخوذ الإطفاء.. توطين صناعات بأثر اقتصادي يفوق 50 مليون دولار",
-      "link": "https://albiladdaily.com/2026/08/12/%d8%aa%d8%b4%d9%85%d9%84-%d8%b5%d9%86%d8%a7%d8%b9%d8%a9-%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-%d8%a5%d9%86%d8%b0%d8%a7%d8%b1-%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d9%88%d8%ae/",
-      "pubDate": "Tue, 11 Aug 2026 21:59:45 +0000",
-      "contentSnippet": "البلاد (الرياض) وقعت هيئة المحتوى المحلي والمشتريات الحكومية السعودية، اتفاقيتين لتوطين الصناعة ونقل المعرفة؛ بهدف تعزيز القدرات الوطنية وتطوير الصناعات المحلية، إلى جانب تعزيز المحتوى المحلي من خلال نقل التقنيات إلى المملكة، بما يسهم في تنويع الاقتصاد وتعزيز سلاسل الإمداد المحلية. وأوضح المتحدث الرسمي للهيئة المهندس عبدالرحمن الصغير، أن الاتفاقيتين ستسهمان في خلق أثر اقتصادي […]",
-      "source": "صحيفة البلاد",
-      "sourceId": "albilad_rss"
-    },
     {
       "title": "خطوات الاستعلام عن مبلغ الضمان الاجتماعي",
       "link": "https://www.almowaten.net/2026/08/%D8%AE%D8%B7%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D9%84%D8%A7%D9%85-%D8%B9%D9%86-%D9%85%D8%A8%D9%84%D8%BA-%D8%A7%D9%84%D8%B6%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A/",
@@ -497,6 +489,186 @@
       "contentSnippet": "دشّن صاحب السمو الملكي الأمير الدكتور فيصل بن مشعل بن سعود بن عبدالعزيز أمير منطقة القصيم، ملتقى المهارات والتدريب \"وعد\"، الذي تنظمه وزارة الموارد البشرية والتنمية الاجتماعية، وذلك في مركز الملك خالد الحضاري، بحضور معالي نائب وزير الموارد البشرية والتنمية الاجتماعية للعمل الدكتور عبدالله بن ناصر أبوثنين، وعدد من الخبراء والمهتمين بتنمية المهارات.\n وتجوّل سموه في الأركان المشاركة، واطّلع على البرام",
       "source": "وزارة الموارد البشرية والتنمية الاجتماعية",
       "sourceId": "hrsd"
+    },
+    {
+      "title": "المؤسسة العامة للتأمينات الاجتماعية",
+      "link": "https://www.gosi.gov.sa/ar",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "اتصل\n                                    بنا",
+      "link": "https://www.gosi.gov.sa/ar/ContactUs",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "تاريخ\n                                    المؤسسة",
+      "link": "https://www.gosi.gov.sa/ar/AboutGOSI/GosiHistory",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "الهيكل التنظيمي",
+      "link": "https://www.gosi.gov.sa/ar/AboutGOSI/OrganizationalChart",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "الإدارة التنفيذية",
+      "link": "https://www.gosi.gov.sa/ar/AboutGOSI/Pages/ExecutiveManagement",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "المشاركة الإلكترونية",
+      "link": "https://gosi.gov.sa/ar/CommunityParticipation",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "البرامج والمبادرات",
+      "link": "https://www.gosi.gov.sa/ar/AboutGOSI/Pages/initiatives.aspx",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "الأخبار والأحداث",
+      "link": "https://www.gosi.gov.sa/ar/MediaCenter",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "السياسات والاستراتيجيات",
+      "link": "https://www.gosi.gov.sa/ar/AboutGOSI/Pages/Policiesandstrategies.aspx",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "الميزانية والمصروفات",
+      "link": "https://www.gosi.gov.sa/ar/AboutGOSI/Pages/budget-.aspx",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "المنافسات والمشتريات",
+      "link": "https://www.gosi.gov.sa/ar/AboutGOSI/Pages/purchases.aspx",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "التنمية المستدامة",
+      "link": "https://www.gosi.gov.sa/ar/AboutGOSI/Pages/SustainableDevelopment.aspx",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "الأنظمة واللوائح",
+      "link": "https://www.gosi.gov.sa/ar/SystemsAndRegulations",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "نظام التأمينات الاجتماعية",
+      "link": "https://www.gosi.gov.sa/ar/SystemsAndRegulations/SocialInsurance",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "نظام التقاعد المدني",
+      "link": "https://www.gosi.gov.sa/ar/SystemsAndRegulations/Civil",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "نظام التقاعد العسكري",
+      "link": "https://www.gosi.gov.sa/ar/SystemsAndRegulations/Military",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "نظام تبادل المنافع",
+      "link": "https://www.gosi.gov.sa/ar/SystemsAndRegulations/BenefitExchange",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "نظام التأمين ضد التعطل عن العمل \"ساند\"",
+      "link": "https://www.gosi.gov.sa/ar/SystemsAndRegulations/Saned",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "النظام الموحد لمد الحماية التأمينية",
+      "link": "https://www.gosi.gov.sa/ar/SystemsAndRegulations/InsuranceProtection",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
+    },
+    {
+      "title": "المستندات المطلوبة",
+      "link": "https://www.gosi.gov.sa/ar/SystemsAndRegulations/RequiredDocuments",
+      "pubDate": "",
+      "contentSnippet": "(خبر رسمي من التأمينات الاجتماعية (GOSI) — راجع الرابط للتفاصيل الكاملة)",
+      "source": "التأمينات الاجتماعية (GOSI)",
+      "sourceId": "gosi",
+      "sourceType": "gov_agency"
     }
   ]
 }
