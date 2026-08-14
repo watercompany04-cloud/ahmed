@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T18:32:12.159Z",
+  "lastUpdated": "2026-08-14T20:19:13.717Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -78,13 +78,13 @@
       "sourceId": "spa_economic",
       "ok": false,
       "itemCount": 0,
-      "error": "Feed not recognized as RSS 1 or 2."
+      "error": "Status code 520"
     },
     {
       "sourceId": "spa_general",
       "ok": false,
       "itemCount": 0,
-      "error": "Feed not recognized as RSS 1 or 2."
+      "error": "Status code 520"
     }
   ],
   "discoveredCandidates": [],
