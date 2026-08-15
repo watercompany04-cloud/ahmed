@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T14:53:51.350Z",
+  "lastUpdated": "2026-08-15T15:44:09.056Z",
   "freshnessPolicy": "آخر 4 شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا",
   "sourcesStatus": [
     {
@@ -71,7 +71,7 @@
     {
       "sourceId": "almowaten_rss",
       "ok": true,
-      "itemCount": 1,
+      "itemCount": 0,
       "error": null
     },
     {
@@ -90,14 +90,6 @@
   "discoveredCandidates": [],
   "droppedForFreshness": 5,
   "items": [
-    {
-      "title": "مساند: لا يمكن تحويل تأشيرة العمالة المنزلية",
-      "link": "https://www.almowaten.net/2026/08/%D9%85%D8%B3%D8%A7%D9%86%D8%AF-%D9%84%D8%A7-%D9%8A%D9%85%D9%83%D9%86-%D8%AA%D8%AD%D9%88%D9%8A%D9%84-%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9/",
-      "pubDate": "Fri, 14 Aug 2026 18:01:39 GMT",
-      "contentSnippet": "",
-      "source": "صحيفة المواطن",
-      "sourceId": "almowaten_rss"
-    },
     {
       "title": "أمير منطقة عسير يؤكد أهمية تفعيل الشراكة مع القطاع الخاص",
       "link": "https://www.al-jazirah.com/2026/20260814/ln4.htm",
