@@ -170,104 +170,11 @@ const SOURCES = [
     required: true,
   },
   {
-    id: 'gosi',
-    name: 'التأمينات الاجتماعية (GOSI)',
-    url: 'https://www.gosi.gov.sa/GOSIOnline/News',
-    type: 'gov_agency',
-    required: false,
-  },
-  {
-    id: 'okaz_rss',
-    name: 'صحيفة عكاظ',
-    url: 'https://www.okaz.com.sa/rssFeed/190',
-    type: 'rss',
-    filterByKeywords: true,
-    required: false,
-  },
-  {
-    id: 'almadina_rss',
-    name: 'صحيفة المدينة',
-    url: 'https://al-madina.com/rssFeed/193',
-    type: 'rss',
-    filterByKeywords: true,
-    required: false,
-  },
-  {
-    id: 'albilad_rss',
-    name: 'صحيفة البلاد',
-    url: 'https://www.albiladdaily.com/feed',
-    type: 'rss',
-    filterByKeywords: true,
-    required: false,
-  },
-  {
-    id: 'arabnews_rss',
-    name: 'Arab News',
-    url: 'https://www.arabnews.com/rss.xml',
-    type: 'rss',
-    filterByKeywords: true,
-    required: false,
-  },
-  {
-    id: 'aljazirah_rss',
-    name: 'صحيفة الجزيرة',
-    url: 'https://www.al-jazirah.com/rss/ln.xml',
-    type: 'rss',
-    filterByKeywords: true,
-    required: false,
-  },
-  {
-    id: 'aawsat_rss',
-    name: 'صحيفة الشرق الأوسط',
-    url: 'https://aawsat.com/feed',
-    type: 'rss',
-    filterByKeywords: true,
-    required: false,
-  },
-  {
-    id: 'sauress_rss',
-    name: 'صوريس (مجمّع أخبار سعودي)',
-    url: 'https://sauress.com/en/rss',
-    type: 'rss',
-    filterByKeywords: true,
-    required: false,
-  },
-  {
-    id: 'alwatan_rss',
-    name: 'صحيفة الوطن',
-    url: 'https://www.alwatan.com.sa/rssFeed/1',
-    type: 'rss',
-    filterByKeywords: true,
-    required: false,
-  },
-  {
-    id: 'alyaum_rss2',
+    id: 'alyaum_rss',
     name: 'صحيفة اليوم',
-    url: 'https://www.alyaum.com/rssFeed/3',
+    url: 'https://alyaum.com/rssFeed/1005',
     type: 'rss',
     filterByKeywords: true,
-    required: false,
-  },
-  {
-    id: 'almowaten_rss',
-    name: 'صحيفة المواطن',
-    url: 'https://almowaten.net/feed',
-    type: 'rss',
-    filterByKeywords: true,
-    required: false,
-  },
-  {
-    id: 'spa_economic',
-    name: 'واس — الأخبار الاقتصادية',
-    url: 'https://www.spa.gov.sa/rss5.xml',
-    type: 'rss',
-    required: false,
-  },
-  {
-    id: 'spa_general',
-    name: 'واس — عام',
-    url: 'https://www.spa.gov.sa/rss.xml',
-    type: 'rss',
     required: false,
   },
 ];
@@ -323,46 +230,6 @@ async function fetchSource(source) {
   }
 }
 
-const CANDIDATE_DOMAINS = [
-  'https://www.alriyadh.com',
-  'https://www.aleqt.com',
-  'https://saudigazette.com.sa',
-  'https://makkahnewspaper.com',
-  'https://www.almarsd.com',
-  'https://uqn.gov.sa',
-  'https://sabq.org',
-  'https://akhbaar24.com',
-];
-const CANDIDATE_PATHS = ['/rssFeed/1', '/rssFeed/2', '/rssFeed/3', '/feed', '/rss.xml', '/rss'];
-
-async function discoverCandidateSources() {
-  const discovered = [];
-  for (const domain of CANDIDATE_DOMAINS) {
-    let foundForThisDomain = false;
-    for (const p of CANDIDATE_PATHS) {
-      if (foundForThisDomain) break;
-      const url = domain + p;
-      try {
-        const feed = await parser.parseURL(url);
-        if (feed.items && feed.items.length > 0) {
-          discovered.push({
-            domain,
-            workingUrl: url,
-            itemCount: feed.items.length,
-            sampleTitle: (feed.items[0].title || '').toString().slice(0, 100),
-          });
-          console.log(`🔍 اكتشاف جديد: ${domain} → ${url} (${feed.items.length} عنصر)`);
-          foundForThisDomain = true;
-        }
-      } catch (e) {}
-    }
-    if (!foundForThisDomain) {
-      console.log(`🔍 لا يوجد رابط RSS شغّال لـ ${domain} من الأنماط المجرَّبة`);
-    }
-  }
-  return discovered;
-}
-
 async function main() {
   console.log('--- بدء دورة الرصد ---', new Date().toISOString());
 
@@ -371,9 +238,7 @@ async function main() {
     results.push(await fetchSource(source));
   }
 
-  console.log('--- بدء الاكتشاف التلقائي لمصادر جديدة ---');
-  const discoveredCandidates = await discoverCandidateSources();
-  console.log(`--- انتهى الاكتشاف. ${discoveredCandidates.length} مصدر مرشّح جديد ---`);
+  const discoveredCandidates = [];
 
   const allItemsRaw = results.filter(r => r.ok).flatMap(r => r.items);
 
@@ -387,7 +252,7 @@ async function main() {
 
   const output = {
     lastUpdated: new Date().toISOString(),
-    freshnessPolicy: `آخر ${FRESHNESS_MONTHS} شهور فقط — أي خبر أقدم أو بتاريخ غير مفهوم يُستبعد تلقائيًا`,
+    freshnessPolicy: `آخر ${FRESHNESS_MONTHS} شهور فقط`,
     sourcesStatus: results.map(r => ({
       sourceId: r.sourceId,
       ok: r.ok,
