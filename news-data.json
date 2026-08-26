@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T05:53:29.832Z",
+  "lastUpdated": "2026-08-26T08:09:21.695Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,13 +11,21 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 0,
+      "itemCount": 1,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 2,
   "items": [
+    {
+      "title": "الضمان الاجتماعي.. أهم مسارات الإعداد المهني للمستفيدين وطريقة التقديم",
+      "link": "https://www.alyaum.com/articles/6679724/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%B6%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A-%D8%A3%D9%87%D9%85-%D9%85%D8%B3%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A-%D9%84%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D9%8A%D9%86-%D9%88%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85",
+      "pubDate": "Wed, 26 Aug 2026 09:45:00 +0300",
+      "contentSnippet": "<div style=\"text-align: justify;\">وضع برنامج <a href=\"https://www.alyaum.com/articles/6678373/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86%D9%88%D8%B9%D8%A7%D8%AA/%D8%A3%D9%87%D9%85-%D9%85%D8%B3%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D9%8A-%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
     {
       "title": "استقدام أسهل وحقوق محفوظة.. \"مساند\" تواصل رفع كفاءة قطاع العمالة المساندة خلال النصف الأول من 2026",
       "link": "https://www.hrsd.gov.sa/media-center/news/%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85-%D8%A3%D8%B3%D9%87%D9%84-%D9%88%D8%AD%D9%82%D9%88%D9%82-%D9%85%D8%AD%D9%81%D9%88%D8%B8%D8%A9",
