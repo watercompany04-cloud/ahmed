@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T11:55:50.162Z",
+  "lastUpdated": "2026-08-26T14:26:34.399Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -10,30 +10,14 @@
     },
     {
       "sourceId": "alyaum_rss",
-      "ok": true,
-      "itemCount": 2,
-      "error": null
+      "ok": false,
+      "itemCount": 0,
+      "error": "Request timed out after 15000ms"
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 2,
   "items": [
-    {
-      "title": "أمير الشرقية يدشن منصة «تمكين» لدعم رواد الأعمال والمنشآت الصغيرة والمتوسطة",
-      "link": "https://www.alyaum.com/articles/6679748/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A3%D9%85%D9%8A%D8%B1-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D9%8A%D8%AF%D8%B4%D9%86-%D9%85%D9%86%D8%B5%D8%A9-%D8%AA%D9%85%D9%83%D9%8A%D9%86-%D9%84%D8%AF%D8%B9%D9%85-%D8%B1%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7%D8%A9",
-      "pubDate": "Wed, 26 Aug 2026 12:54:00 +0300",
-      "contentSnippet": "<div style=\"text-align: justify;\">دشن صاحب السمو الملكي الأمير سعود بن نايف بن عبد العزيز أمير المنطقة الشرقية، بمقر غرفة الشرقية اليوم الأربعاء، منصة «<a href=\"https://www.alyaum.com/articles/6427260/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%85%D9%86%D8%B5%D8%A9-%D8%AA%D9%85%D9%83%D9%8A%D",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "الضمان الاجتماعي.. أهم مسارات الإعداد المهني للمستفيدين وطريقة التقديم",
-      "link": "https://www.alyaum.com/articles/6679724/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%B6%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A-%D8%A3%D9%87%D9%85-%D9%85%D8%B3%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A-%D9%84%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D9%8A%D9%86-%D9%88%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85",
-      "pubDate": "Wed, 26 Aug 2026 09:45:00 +0300",
-      "contentSnippet": "<div style=\"text-align: justify;\">وضع برنامج <a href=\"https://www.alyaum.com/articles/6678373/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86%D9%88%D8%B9%D8%A7%D8%AA/%D8%A3%D9%87%D9%85-%D9%85%D8%B3%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D9%8A-%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
     {
       "title": "استقدام أسهل وحقوق محفوظة.. \"مساند\" تواصل رفع كفاءة قطاع العمالة المساندة خلال النصف الأول من 2026",
       "link": "https://www.hrsd.gov.sa/media-center/news/%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85-%D8%A3%D8%B3%D9%87%D9%84-%D9%88%D8%AD%D9%82%D9%88%D9%82-%D9%85%D8%AD%D9%81%D9%88%D8%B8%D8%A9",
