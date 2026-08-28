@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T14:26:34.399Z",
+  "lastUpdated": "2026-08-28T00:57:18.742Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -10,9 +10,9 @@
     },
     {
       "sourceId": "alyaum_rss",
-      "ok": false,
+      "ok": true,
       "itemCount": 0,
-      "error": "Request timed out after 15000ms"
+      "error": null
     }
   ],
   "discoveredCandidates": [],
