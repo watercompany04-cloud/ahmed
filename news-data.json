@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T14:34:42.294Z",
+  "lastUpdated": "2026-08-31T15:04:36.308Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -10,14 +10,22 @@
     },
     {
       "sourceId": "alyaum_rss",
-      "ok": false,
-      "itemCount": 0,
-      "error": "Request timed out after 15000ms"
+      "ok": true,
+      "itemCount": 1,
+      "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 1,
   "items": [
+    {
+      "title": "النفايات تتحول إلى فرص استثمارية.. الشرقية تفتح 7 مجالات أمام القطاع الخاص",
+      "link": "https://www.alyaum.com/articles/6680455/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D9%86%D9%81%D8%A7%D9%8A%D8%A7%D8%AA-%D8%AA%D8%AA%D8%AD%D9%88%D9%84-%D8%A5%D9%84%D9%89-%D9%81%D8%B1%D8%B5-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%AA%D9%81%D8%AA%D8%AD-7-%D9%85%D8%AC%D8%A7%D9%84%D8%A7%D8%AA-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5",
+      "pubDate": "Mon, 31 Aug 2026 11:15:00 +0300",
+      "contentSnippet": "طرحت أمانة المنطقة الشرقية نشاط <a href=\"https://www.alyaum.com/articles/6677896/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/28-%D8%A3%D9%84%D9%81-%D8%AC%D9%88%D9%84%D8%A9-%D9%84%D8%AA%D8%B4%D8%AF%D9%8A%D8%AF-%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A8%D8%A9-%D8%B9%D9%84%D9%89-%D9%82%D8%B7%D8%A7%D8%B9-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
     {
       "title": "وزارة الموارد البشرية والتنمية الاجتماعية تُشارك في النسخة الخامسة من المؤتمر التقني \"ليب 2026\"",
       "link": "https://www.hrsd.gov.sa/media-center/news/%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A-%D9%84%D9%8A%D8%A8-2026",
