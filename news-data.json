@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T21:31:38.088Z",
+  "lastUpdated": "2026-09-06T23:26:47.266Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,7 +11,7 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 5,
+      "itemCount": 3,
       "error": null
     }
   ],
@@ -39,22 +39,6 @@
       "link": "https://www.alyaum.com/articles/6681396/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D9%86%D8%AC%D8%B1%D8%A7%D9%86-%D8%AA%D8%B9%D9%84%D9%86-%D8%B7%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%B5%D8%AD%D9%8A%D8%A9-%D8%B9%D8%A8%D8%B1-%D9%85%D9%86%D8%B5%D8%A9-%D9%85%D8%B3%D8%A7%D8%B1",
       "pubDate": "Sun, 06 Sep 2026 13:44:00 +0300",
       "contentSnippet": "<div style=\"text-align: justify;\">أعلنت <a href=\"https://www.alyaum.com/articles/6677642/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D9%86%D8%AC%D8%B1%D8%A7%D9%86-%D8%AA%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%83%D9%86-%D8%A7%D9%84%D8%B7%D",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "الاحتلال الإسرائيلي يستهدف بالمدفعية ريف دمشق بسوريا",
-      "link": "https://www.alyaum.com/articles/6681367/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%A8%D8%A7%D9%84%D9%85%D8%AF%D9%81%D8%B9%D9%8A%D8%A9-%D8%B1%D9%8A%D9%81-%D8%AF%D9%85%D8%B4%D9%82-%D8%A8%D8%B3%D9%88%D8%B1%D9%8A%D8%A7",
-      "pubDate": "Sun, 06 Sep 2026 09:52:00 +0300",
-      "contentSnippet": "<div style=\"text-align: justify;\">استهدفت قوات<a href=\"https://www.alyaum.com/articles/6681350/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A8%D9%8A%D9%86%D9%87%D9%85-%D8%B7%D9%81%D9%84%D8%A9-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-3-%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D9%8A%D9%86-%D8%A8%D8%B1%D8%B5%D8%A7%D8%B5-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%81%",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "حال قبول الاعتراض.. متى يُصرف معاش الضمان الاجتماعي بأثر رجعي؟",
-      "link": "https://www.alyaum.com/articles/6681357/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%AD%D8%A7%D9%84-%D9%82%D8%A8%D9%88%D9%84-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%85%D8%AA%D9%89-%D9%8A%D8%B5%D8%B1%D9%81-%D9%85%D8%B9%D8%A7%D8%B4-%D8%A7%D9%84%D8%B6%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A-%D8%A8%D8%A3%D8%AB%D8%B1-%D8%B1%D8%AC%D8%B9%D9%8A",
-      "pubDate": "Sun, 06 Sep 2026 08:47:00 +0300",
-      "contentSnippet": "<div style=\"text-align: justify;\">حدد برنامج الضمان الاجتماعي التابع لوزارة الموارد البشرية، موعد صرف معاش البرنامج بأثر رجعي للمستفيدين.<br /><br />وقال البرنامج عبر حسابه الرسمي على منصة \"إكس\"، إن المعاش يصرف تلقائيًا بعد قبول الاعتراض أو الشكوى المالية مع معاش الشهر الذي يلي القبول.</div><h2 style=\"text-align:justify\">خطوات سحب الطلب</h2><div style=\"text-align: justify;\"><br />سجل الدخول إلى ال",
       "source": "صحيفة اليوم",
       "sourceId": "alyaum_rss"
     },
