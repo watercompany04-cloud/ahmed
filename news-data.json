@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T19:26:29.010Z",
+  "lastUpdated": "2026-09-10T21:44:48.287Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,7 +11,7 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 3,
+      "itemCount": 1,
       "error": null
     }
   ],
@@ -23,22 +23,6 @@
       "link": "https://www.alyaum.com/articles/6682001/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%AF%D8%B1%D9%88%D8%B3-%D8%A7%D9%84%D8%AA%D9%82%D9%88%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-6-%D9%81%D8%A6%D8%A7%D8%AA-%D9%883-%D9%85%D9%88%D8%A7%D8%AF-%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A9-%D9%84%D8%B1%D9%81%D8%B9-%D9%86%D9%88%D8%A7%D8%AA%D8%AC-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%85",
       "pubDate": "Thu, 10 Sep 2026 13:20:00 +0300",
       "contentSnippet": "حددت <a href=\"https://www.alyaum.com/articles/6681653/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%AA%D8%B7%D8%A8%D9%82-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7-%D8%AA%D8%B4%D8%AE%D9%8A%D8%B5%D9%8A%D8%A7-%D9%843-%D8%B5%D9%81%D9%88%D9%81-%D9%88%D8%AA%D8%B5%D9%88%D9%8A%D8%B1-%D8%A",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "«مؤتمر الجبيل للتآكل» يختتم أعماله.. دهانات جديدة وذكاء اصطناعي لحماية المنشآت",
-      "link": "https://www.alyaum.com/articles/6681984/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D8%AC%D8%A8%D9%8A%D9%84-%D9%84%D9%84%D8%AA%D8%A2%D9%83%D9%84-%D9%8A%D8%AE%D8%AA%D8%AA%D9%85-%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%87-%D8%AF%D9%87%D8%A7%D9%86%D8%A7%D8%AA-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%88%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA",
-      "pubDate": "Thu, 10 Sep 2026 11:25:00 +0300",
-      "contentSnippet": "<br /><br />اختُتمت أعمال مؤتمر و<a href=\"https://www.alyaum.com/articles/6681818/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B3%D8%A7%D8%A9-%D8%A8%D8%A7%D9%84%D8%AC%D8%A8%D9%8A%D9%84-%D9%8A%D9%86%D8%AC%D8%AD-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D8%A6%D8%B5%D8%",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "أبشر.. تحديث الصورة الشخصية للعمالة المنزلية في \"هوية مقيم\"",
-      "link": "https://www.alyaum.com/articles/6681967/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86%D9%88%D8%B9%D8%A7%D8%AA/%D8%A3%D8%A8%D8%B4%D8%B1-%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB-%D8%A7%D9%84%D8%B5%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9-%D9%84%D9%84%D8%B9%D9%85%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9-%D9%81%D9%8A-%D9%87%D9%88%D9%8A%D8%A9-%D9%85%D9%82%D9%8A%D9%85",
-      "pubDate": "Thu, 10 Sep 2026 10:00:00 +0300",
-      "contentSnippet": "يمكنك في <a href=\"https://www.alyaum.com/articles/6677486/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86%D9%88%D8%B9%D8%A7%D8%AA/%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%84%D8%A3%D8%B3%D8%A6%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9-%D8%B9%D9%86-%D8%AE%D8%AF%D9%85%D8%A9-%D8%A3%D8%A8%D8%B4%D8%B1-%D8%B3%D9%81%D8%B1-%D8%B9%D8%A8%D8%B1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A3%D8%A8%D8%B4%",
       "source": "صحيفة اليوم",
       "sourceId": "alyaum_rss"
     },
