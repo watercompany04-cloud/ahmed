@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T03:25:55.118Z",
+  "lastUpdated": "2026-09-15T08:52:40.832Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,21 +11,13 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 1,
+      "itemCount": 0,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 0,
   "items": [
-    {
-      "title": "«جائزة العمل».. 34 جائزة و5 مسارات لمنشآت القطاع الخاص",
-      "link": "https://www.alyaum.com/articles/6682582/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%AC%D8%A7%D8%A6%D8%B2%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D9%84-34-%D8%AC%D8%A7%D8%A6%D8%B2%D8%A9-%D9%885-%D9%85%D8%B3%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5",
-      "pubDate": "Mon, 14 Sep 2026 18:10:00 +0300",
-      "contentSnippet": "أعلنت <a href=\"https://www.alyaum.com/articles/6681865/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D8%AA%D8%AD%D8%AF%D8%AF-%D9%85%D9%88%D8%B9%D8%AF-%D8%A5%D8%AC%D8%A7%D8%B2%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
     {
       "title": "وزارة الموارد البشرية والتنمية الاجتماعية تفتح باب التسجيل في النسخة السادسة من جائزة العمل",
       "link": "https://www.hrsd.gov.sa/media-center/news/%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%C2%A0%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9-%D9%85%D9%86-%D8%AC%D8%A7%D8%A6%D8%B2%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D9%84",
