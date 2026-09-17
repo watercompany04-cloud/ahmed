@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T15:09:08.587Z",
+  "lastUpdated": "2026-09-17T19:09:31.796Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,13 +11,29 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 0,
+      "itemCount": 2,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 0,
   "items": [
+    {
+      "title": "كيفية التصرف عند تسرب الغاز بالمنازل والمنشآت؟.. الدفاع المدني يوضح",
+      "link": "https://www.alyaum.com/articles/6683051/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86%D9%88%D8%B9%D8%A7%D8%AA/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B5%D8%B1%D9%81-%D8%B9%D9%86%D8%AF-%D8%AA%D8%B3%D8%B1%D8%A8-%D8%A7%D9%84%D8%BA%D8%A7%D8%B2-%D8%A8%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A-%D9%8A%D9%88%D8%B6%D8%AD",
+      "pubDate": "Thu, 17 Sep 2026 13:54:00 +0300",
+      "contentSnippet": "أوضحت <a href=\"https://www.alyaum.com/articles/6682060/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A-%D9%8A%D8%A4%D9%83%D8%AF-%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D8%AA%D9%88%D8%A7%D9%81%D8%B1-%D8%A3%D8%AC%D9%87%D8%B2%D8%A9-%D9%83%D8%A7%D8%B4%D9%81-%D8%AA%D8%B",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
+    {
+      "title": "الشرقية تزرع 2,08 مليون شجرة وتستهدف 1,5 مليون خلال 2026",
+      "link": "https://www.alyaum.com/articles/6683038/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%AA%D8%B2%D8%B1%D8%B9-208-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%B4%D8%AC%D8%B1%D8%A9-%D9%88%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-15-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%AE%D9%84%D8%A7%D9%84-2026",
+      "pubDate": "Thu, 17 Sep 2026 12:35:00 +0300",
+      "contentSnippet": "كشفت<a href=\"https://www.alyaum.com/articles/6612585/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/36-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%B4%D8%AC%D8%B1%D8%A9-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D9%85%D9%83%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D9%83%D9%85%D8%B1%D9%83%D8%B2-%D9%84%D8%BA%D8%A7%D8%A8%D8%A7%D8%A",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
     {
       "title": "وزير الموارد البشرية والتنمية الاجتماعية يستقبل وزير شؤون العمالة المهاجرة في جمهورية الفلبين",
       "link": "https://www.hrsd.gov.sa/media-center/news/%D9%85%D8%B9%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D9%88%D8%B2%D9%8A%D8%B1-%D9%8A%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D9%88%D8%B2%D9%8A%D8%B1-%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D9%87%D8%A7%D8%AC%D8%B1%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D9%84%D8%A8%D9%8A%D9%86",
