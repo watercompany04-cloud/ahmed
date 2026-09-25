@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T05:10:57.900Z",
+  "lastUpdated": "2026-09-25T10:22:42.627Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,11 +11,20 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 0,
+      "itemCount": 1,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
-  "items": []
+  "items": [
+    {
+      "title": "وزراء خارجية دول اتفاقية مكة يدينون الاعتداءات على المنشآت بالمملكة",
+      "link": "https://www.alyaum.com/articles/6684197/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%AF%D9%88%D9%84-%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A9-%D9%85%D9%83%D8%A9-%D9%8A%D8%AF%D9%8A%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A8%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9",
+      "pubDate": "Fri, 25 Sep 2026 03:42:00 +0300",
+      "contentSnippet": "عقد صاحب السمو الأمير <a href=\"https://www.alyaum.com/articles/6684183/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D9%8A%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AC%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9-%D9",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    }
+  ]
 }
