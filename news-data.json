@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T02:14:45.700Z",
+  "lastUpdated": "2026-10-05T09:24:52.304Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,11 +11,20 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 0,
+      "itemCount": 1,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
-  "items": []
+  "items": [
+    {
+      "title": "العليمي: عملية \"فجر اليمن\" تستهدف استعادة مؤسسات الدولة وتحرير صنعاء",
+      "link": "https://www.alyaum.com/articles/6685538/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D9%85%D9%8A-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D9%81%D8%AC%D8%B1-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%A7%D8%B3%D8%AA%D8%B9%D8%A7%D8%AF%D8%A9-%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9-%D9%88%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1-%D8%B5%D9%86%D8%B9%D8%A7%D8%A1",
+      "pubDate": "Mon, 05 Oct 2026 11:55:00 +0300",
+      "contentSnippet": "<div style=\"text-align: justify;\">أعلن رئيس <a href=\"https://www.alyaum.com/articles/6683483/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D9%88%D8%A7%D9%81%D9%82%D9%88%D8%A7-%D8%B9%D9%84%D9%89-%D8%B9%D8%AF%D9%85-%D9%82%D8%AA%D8%A7%D9%84%D9%86%D8%A7-%D9%88%D8%A3%D9%85%D9%88%D8%B1-%D9%",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    }
+  ]
 }
