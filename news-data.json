@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T19:39:56.085Z",
+  "lastUpdated": "2026-10-06T23:31:57.017Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,36 +11,11 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 3,
+      "itemCount": 0,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
-  "items": [
-    {
-      "title": "الطيران المدني: اعتداءان يستهدفان مطاري جازان ونجران.. 3 إصابات طفيفة وأضرار مادية",
-      "link": "https://www.alyaum.com/articles/6685689/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D9%86-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%A7%D9%86-%D9%85%D8%B7%D8%A7%D8%B1%D9%8A-%D8%AC%D8%A7%D8%B2%D8%A7%D9%86-%D9%88%D9%86%D8%AC%D8%B1%D8%A7%D9%86-3-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%B7%D9%81%D9%8A%D9%81%D8%A9-%D9%88%D8%A3%D8%B6%D8%B1%D8%A7%D8%B1-%D9%85%D8%A7%D8%AF%D9%8A%D8%A9",
-      "pubDate": "Tue, 06 Oct 2026 10:34:00 +0300",
-      "contentSnippet": "<p>أعلنت الهيئة العامة <a href=\"https://www.alyaum.com/articles/6676690/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%AA%D8%B9%D9%8A%D8%AF-%D9%81%D8%AA%D8%AD-%D9%85%D8%B7%D8%A7%D8%B1-%D8%AF%D9%8A%D8%B1-%D8%A7%D9%84%D8%B2%D9%88%D8%B1-%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81-%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA-%D8%A8%D8%B9%D8%AF",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "بيزشكيان: التفاوض مع الولايات المتحدة لا طائل منه وهدفهم إسقاط إيران",
-      "link": "https://www.alyaum.com/articles/6685648/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A8%D9%8A%D8%B2%D8%B4%D9%83%D9%8A%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D9%88%D8%B6-%D9%85%D8%B9-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D9%84%D8%A7-%D8%B7%D8%A7%D8%A6%D9%84-%D9%85%D9%86%D9%87-%D9%88%D9%87%D8%AF%D9%81%D9%87%D9%85-%D8%A5%D8%B3%D9%82%D8%A7%D8%B7-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
-      "pubDate": "Mon, 05 Oct 2026 23:35:00 +0300",
-      "contentSnippet": "قال <a href=\"https://www.alyaum.com/articles/6685547/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9/%D8%A7%D8%B3%D8%AA%D9%82%D8%A7%D9%84%D8%A9-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D9%85%D8%B9-%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A7%D9%84%D8%B5%D8%A7%D8%AF%D8%B1%D8%A7%D8%AA-%D8%AA%D8%AD%D8%AA-%",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "\"التحالف\": احبطنا مخطط لهجمات تستهدف الممرات المائية جنوب البحر الأحمر",
-      "link": "https://www.alyaum.com/articles/6685645/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%AD%D8%A8%D8%B7%D9%86%D8%A7-%D9%85%D8%AE%D8%B7%D8%B7-%D9%84%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%A7%D9%84%D9%85%D9%85%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%A7%D8%A6%D9%8A%D8%A9-%D8%AC%D9%86%D9%88%D8%A8-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1",
-      "pubDate": "Mon, 05 Oct 2026 23:25:00 +0300",
-      "contentSnippet": "أعلن المتحدث الرسمي باسم <a href=\"https://www.alyaum.com/articles/6685550/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-100-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D9%85%D9%82%D8%A7%D8%AA%D9%84%D8%A9-%D8%B4%D8%A7%D8%B1%D9%83%D8%AA-%D9%81%D8%AC%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%81%D9%8A-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D9%81%D8%AC",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    }
-  ]
+  "items": []
 }
