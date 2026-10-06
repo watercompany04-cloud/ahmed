@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T14:20:50.306Z",
+  "lastUpdated": "2026-10-06T19:39:56.085Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,21 +11,13 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 4,
+      "itemCount": 3,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
   "items": [
-    {
-      "title": "الداخلية: إتاحة استقدام أسر الوافدين بالتزامن مع تأشيرة العمل لذوي الكفاءة",
-      "link": "https://www.alyaum.com/articles/6685717/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%A5%D8%AA%D8%A7%D8%AD%D8%A9-%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85-%D8%A3%D8%B3%D8%B1-%D8%A7%D9%84%D9%88%D8%A7%D9%81%D8%AF%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85%D9%86-%D9%85%D8%B9-%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%84%D8%B0%D9%88%D9%8A-%D8%A7%D9%84%D9%83%D9%81%D8%A7%D8%A1%D8%A9",
-      "pubDate": "Tue, 06 Oct 2026 13:11:00 +0300",
-      "contentSnippet": "<div style=\"text-align: justify;\">أعلنت وزارة <a href=\"https://www.alyaum.com/articles/6685640/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%AA%D8%B5%D8%AD%D9%8A%D8%AD-%D8%A3%D9%88%D8%B6%D8%A7%D8%B9-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%85%D8%AA%D8",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
     {
       "title": "الطيران المدني: اعتداءان يستهدفان مطاري جازان ونجران.. 3 إصابات طفيفة وأضرار مادية",
       "link": "https://www.alyaum.com/articles/6685689/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D9%86-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%A7%D9%86-%D9%85%D8%B7%D8%A7%D8%B1%D9%8A-%D8%AC%D8%A7%D8%B2%D8%A7%D9%86-%D9%88%D9%86%D8%AC%D8%B1%D8%A7%D9%86-3-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%B7%D9%81%D9%8A%D9%81%D8%A9-%D9%88%D8%A3%D8%B6%D8%B1%D8%A7%D8%B1-%D9%85%D8%A7%D8%AF%D9%8A%D8%A9",
