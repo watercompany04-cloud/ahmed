@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T16:44:58.472Z",
+  "lastUpdated": "2026-10-08T21:47:12.388Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,20 +11,11 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 1,
+      "itemCount": 0,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
-  "items": [
-    {
-      "title": "الاحتلال يستهدف بالمدفعية محيط قرية بريف القنيطرة الشمالي في سوريا",
-      "link": "https://www.alyaum.com/articles/6686000/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%A8%D8%A7%D9%84%D9%85%D8%AF%D9%81%D8%B9%D9%8A%D8%A9-%D9%85%D8%AD%D9%8A%D8%B7-%D9%82%D8%B1%D9%8A%D8%A9-%D8%A8%D8%B1%D9%8A%D9%81-%D8%A7%D9%84%D9%82%D9%86%D9%8A%D8%B7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7",
-      "pubDate": "Thu, 08 Oct 2026 02:59:00 +0300",
-      "contentSnippet": "استهدفت قوات <a href=\"https://www.alyaum.com/articles/6685837/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D9%81%D8%AA%D8%A7%D8%A9-%D9%88%D8%B7%D9%81%D9%84%D8%A9-%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D8%AA%D9%8A%D9%86-%D8%A8%D9%86%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%81%D9%8A-%D9%82%D8%B7%D8%A",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    }
-  ]
+  "items": []
 }
