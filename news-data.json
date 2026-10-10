@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T17:37:14.582Z",
+  "lastUpdated": "2026-10-10T21:05:12.575Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,37 +11,13 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 5,
+      "itemCount": 2,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
   "items": [
-    {
-      "title": "اعتداء يستهدف مطار الملك خالد بالرياض.. وتعليق العمليات التشغيلية مؤقتًا",
-      "link": "https://www.alyaum.com/articles/6686340/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9%84%D8%AF-%D8%A8%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D9%88%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9-%D9%85%D8%A4%D9%82%D8%AA%D8%A7",
-      "pubDate": "Sat, 10 Oct 2026 19:35:00 +0300",
-      "contentSnippet": "أعلنت <a href=\"https://www.alyaum.com/articles/6686192/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/3-%D8%B4%D9%87%D8%AF%D8%A7%D8%A1-%D9%88%D9%85%D8%B5%D8%A7%D8%A8%D9%88%D9%86-%D9%81%D9%8A-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D9%86-%D8%B9%D9%84%D9%89-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "اتفاقية لحماية الصقور وإعادة توطينها في الموائل الطبيعية",
-      "link": "https://www.alyaum.com/articles/6686301/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A9-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B5%D9%82%D9%88%D8%B1-%D9%88%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AA%D9%88%D8%B7%D9%8A%D9%86%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9",
-      "pubDate": "Sat, 10 Oct 2026 14:00:00 +0300",
-      "contentSnippet": "وقّع <a href=\"https://www.alyaum.com/articles/6686230/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86%D9%88%D8%B9%D8%A7%D8%AA/%D8%AF%D9%88%D9%84%D9%8A-%D9%88%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A-%D8%AD%D8%B6%D9%88%D8%B1-%D8%A5%D8%B9%D9%84%D8%A7%D9%85%D9%8A-%D9%88%D8%A7%D8%B3%D8%B9-%D9%81%D9%8A-%D9%85%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D8%B5%D9%82%D9%88%D8%B1-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%AF",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "60 يومًا إعفاء من أجور التخزين لبضائع الترانزيت بميناء جازان",
-      "link": "https://www.alyaum.com/articles/6686300/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/60-%D9%8A%D9%88%D9%85%D8%A7-%D8%A5%D8%B9%D9%81%D8%A7%D8%A1-%D9%85%D9%86-%D8%A3%D8%AC%D9%88%D8%B1-%D8%A7%D9%84%D8%AA%D8%AE%D8%B2%D9%8A%D9%86-%D9%84%D8%A8%D8%B6%D8%A7%D8%A6%D8%B9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D9%86%D8%B2%D9%8A%D8%AA-%D8%A8%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%AC%D8%A7%D8%B2%D8%A7%D9%86",
-      "pubDate": "Sat, 10 Oct 2026 14:00:00 +0300",
-      "contentSnippet": "أقرت <a href=\"https://www.alyaum.com/articles/6683016/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%85%D8%A7%D9%84-%D9%88%D8%A3%D8%B9%D9%85%D8%A7%D9%84/%D8%A7%D9%84%D8%B5%D8%A7%D8%AF%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%88%D8%A7%D8%B1%D8%AF%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%86%D8%A6-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
     {
       "title": "مندوب اليمن بالأمم المتحدة: ميليشيا الحوثي جماعة إرهابية تستهدف المدنيين",
       "link": "https://www.alyaum.com/articles/6686269/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D9%85%D9%86%D8%AF%D9%88%D8%A8-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%A8%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%AC%D9%85%D8%A7%D8%B9%D8%A9-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D9%8A%D9%86",
