@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T22:56:44.207Z",
+  "lastUpdated": "2026-10-16T01:00:49.189Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,13 +11,21 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 1,
+      "itemCount": 2,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
   "items": [
+    {
+      "title": "القوات اليمنية: الحوثيون يستهدفون مأرب بصواريخ باليستية",
+      "link": "https://www.alyaum.com/articles/6687138/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D9%88%D9%86-%D9%85%D8%A3%D8%B1%D8%A8-%D8%A8%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A%D8%A9",
+      "pubDate": "Thu, 15 Oct 2026 19:39:00 +0300",
+      "contentSnippet": "<p>أعلنت القوات الحكومية اليمنية أن <a href=\"https://www.alyaum.com/articles/6687044/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D9%85%D9%84%D8%AA%D9%82%D9%89-%D8%AF%D8%B9%D9%88%D9%8A-%D8%A8%D8%AD%D8%B6%D8%B1%D9%85%D9%88%D8%AA-%D9%8A%D8%AF%D8%B9%D9%88-%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF-%D8%A7%D9%84%D8%B5%D9%81-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A-%D9%88%D9%85%D9%88",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
     {
       "title": "97 مليون ريال لـ 5 مشاريع تنموية تستهدف دعم المجتمعات الريفية بمكة",
       "link": "https://www.alyaum.com/articles/6687078/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/97-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%B1%D9%8A%D8%A7%D9%84-%D9%84-5-%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%AA%D9%86%D9%85%D9%88%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%8A%D9%81%D9%8A%D8%A9-%D8%A8%D9%85%D9%83%D8%A9",
