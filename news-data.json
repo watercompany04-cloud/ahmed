@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T17:44:36.070Z",
+  "lastUpdated": "2026-10-20T21:11:17.804Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,7 +11,7 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 2,
+      "itemCount": 1,
       "error": null
     }
   ],
@@ -19,18 +19,10 @@
   "droppedForFreshness": 50,
   "items": [
     {
-      "title": "استهدفت مناطق متفرقة.. أكثر من 100 قتيل في هجمات بالمسيرات في السودان",
-      "link": "https://www.alyaum.com/articles/6687725/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%AA-%D9%85%D9%86%D8%A7%D8%B7%D9%82-%D9%85%D8%AA%D9%81%D8%B1%D9%82%D8%A9-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-100-%D9%82%D8%AA%D9%8A%D9%84-%D9%81%D9%8A-%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
-      "pubDate": "Mon, 19 Oct 2026 23:50:00 +0300",
-      "contentSnippet": "لقي أكثر من 100 شخص حتفهم في هجمات ب<a href=\"https://www.alyaum.com/articles/6687008/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A7%D8%AA-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-960-%D8%AD%D9%82%D9%8A%D8%A8%D8%A9-%D8%A5%D9%8A%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-%D9%81%D9%8A-%D9%88%D9%84%D8%A7%D9%8A%D8",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "ميليشيا الحوثي الإرهابية تستهدف مأرب بـ5 صواريخ باليستية",
-      "link": "https://www.alyaum.com/articles/6687712/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D9%85%D8%A3%D8%B1%D8%A8-%D8%A85-%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A%D8%A9",
-      "pubDate": "Mon, 19 Oct 2026 22:15:00 +0300",
-      "contentSnippet": "أفاد مكتب الإعلام في محافظة مأرب، أن <a href=\"https://www.alyaum.com/articles/6687707/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%87%D8%A7%D8%AA%D9%81%D9%8A%D8%A7-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D9%8A%D9%86%D8%A7%D9%82%D8%B4-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D9%85",
+      "title": "\"زاتكا\" تدعو المنشآت إلى تقديم إقراراتها الضريبية عن سبتمبر والربع الثالث لعام 2026",
+      "link": "https://www.alyaum.com/articles/6687839/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%B2%D8%A7%D8%AA%D9%83%D8%A7-%D8%AA%D8%AF%D8%B9%D9%88-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A5%D9%84%D9%89-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A5%D9%82%D8%B1%D8%A7%D8%B1%D8%A7%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D8%B6%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9-%D8%B9%D9%86-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-%D9%88%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D9%84%D8%B9%D8%A7%D9%85-2026",
+      "pubDate": "Tue, 20 Oct 2026 17:45:00 +0300",
+      "contentSnippet": "دعت هيئة الزكاة والضريبة والجمارك \"زاتكا\" المنشآت من قطاع الأعمال الخاضعين لضريبة القيمة المضافة التي تتجاوز توريداتها السنوية من السلع والخدمات 40 مليون ريال إلى تقديم <a href=\"https://www.alyaum.com/articles/6678918/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%B2%D8%A7%D8%AA%D9%83%D8%A7-%D8%AA%D8%AF%D8%B9%D9%88-%D8%A7%D9",
       "source": "صحيفة اليوم",
       "sourceId": "alyaum_rss"
     }
