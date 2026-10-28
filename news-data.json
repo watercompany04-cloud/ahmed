@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T23:02:46.702Z",
+  "lastUpdated": "2026-10-28T02:29:31.791Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,7 +11,7 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 2,
+      "itemCount": 1,
       "error": null
     }
   ],
@@ -19,18 +19,10 @@
   "droppedForFreshness": 50,
   "items": [
     {
-      "title": "بالمسيرات.. قوات الدعم السريع تستهدف محطة كهرباء في الخرطوم",
-      "link": "https://www.alyaum.com/articles/6688678/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D9%85%D8%AD%D8%B7%D8%A9-%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AE%D8%B1%D8%B7%D9%88%D9%85",
-      "pubDate": "Tue, 27 Oct 2026 10:47:00 +0300",
-      "contentSnippet": "شنت قوات الدعم السريع اليوم الثلاثاء، هجومًا <a href=\"https://www.alyaum.com/articles/6685670/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A3%D8%B3%D9%84%D8%AD%D8%A9-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%8",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "الزنداني: استهداف الحوثي المنشآت الحيوية في اليمن والسعودية  يهدد أمن المنطقة",
-      "link": "https://www.alyaum.com/articles/6688656/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A7%D9%84%D8%B2%D9%86%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9",
-      "pubDate": "Tue, 27 Oct 2026 05:34:00 +0300",
-      "contentSnippet": "<p>أكد <a href=\"https://www.alyaum.com/articles/6671605/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AD%D8%B1%D8%B5%D8%AA-%D8%B9%D9%84%D9%89-%D8%AF%D8%B9%D9%85-%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D8%B3%D9%",
+      "title": "وزارة الداخلية تسهم في توطين الصناعات العسكرية بالمملكة",
+      "link": "https://www.alyaum.com/articles/6688758/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%AA%D8%B3%D9%87%D9%85-%D9%81%D9%8A-%D8%AA%D9%88%D8%B7%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9",
+      "pubDate": "Wed, 28 Oct 2026 01:58:00 +0300",
+      "contentSnippet": "أسهمت <a href=\"https://www.alyaum.com/articles/6686613/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%AA%D9%88%D8%B6%D8%AD-%D8%B9%D9%82%D9%88%D8%A8%D8%A9-%D9%85%D9%86-%D9%8A%D8%B3%D9%87%D9%84-%D8%AF%D8%AE%D9%88%D9%84-%D9%85%D8%AE%D8%A7%D9%84%D9%81%D9%8A-%D9%86%D8%B8%D8%A7%D9%8",
       "source": "صحيفة اليوم",
       "sourceId": "alyaum_rss"
     }
