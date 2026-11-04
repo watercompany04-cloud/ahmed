@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T20:45:24.860Z",
+  "lastUpdated": "2026-11-04T01:00:39.345Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,20 +11,11 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 1,
+      "itemCount": 0,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
-  "items": [
-    {
-      "title": "\"الموارد البشرية\" تدعو منشآت القطاع الخاص إلى الإفصاح عن بيانات التدريب قبل 31 يناير - عاجل",
-      "link": "https://www.alyaum.com/articles/6689434/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D8%AA%D8%AF%D8%B9%D9%88-%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%A5%D9%81%D8%B5%D8%A7%D8%AD-%D8%B9%D9%86-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D9%82%D8%A8%D9%84-31-%D9%8A%D9%86%D8%A7%D9%8A%D8%B1-%D8%B9%D8%A7%D8%AC%D9%84",
-      "pubDate": "Mon, 02 Nov 2026 18:00:00 +0300",
-      "contentSnippet": "دعت <a href=\"https://www.alyaum.com/articles/6689381/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%AA%D8%AA%D8%B5%D8%AF%D8%B1-%D8%A8-35-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AC%D9%84-244-%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    }
-  ]
+  "items": []
 }
