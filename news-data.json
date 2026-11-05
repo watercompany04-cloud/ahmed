@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T01:58:15.936Z",
+  "lastUpdated": "2026-11-05T09:11:48.105Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,13 +11,21 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 1,
+      "itemCount": 2,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
   "items": [
+    {
+      "title": "مقتل شخص في غارة اسرائيلية استهدفت دراجة نارية جنوب لبنان",
+      "link": "https://www.alyaum.com/articles/6689715/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D9%85%D9%82%D8%AA%D9%84-%D8%B4%D8%AE%D8%B5-%D9%81%D9%8A-%D8%BA%D8%A7%D8%B1%D8%A9-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%AA-%D8%AF%D8%B1%D8%A7%D8%AC%D8%A9-%D9%86%D8%A7%D8%B1%D9%8A%D8%A9-%D8%AC%D9%86%D9%88%D8%A8-%D9%84%D8%A8%D9%86%D8%A7%D9%86",
+      "pubDate": "Thu, 05 Nov 2026 04:30:00 +0300",
+      "contentSnippet": "لقي شخص مصرعه وأصيب آخر بجروح جراء <a href=\"https://www.alyaum.com/articles/6679985/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D9%85%D9%82%D8%AA%D9%84-%D8%B3%D9%8A%D8%AF%D8%A9-%D8%AC%D8%B1%D8%A7%D8%A1-%D8%BA%D8%A7%D8%B1%D8%A9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%AC%D9%86%D9%88%D8%A8-%D9%84%D8%A8%D9%86%D8%A7%D9%86\" target=\"_bl",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
     {
       "title": "ضبط 67 مكتب استقدام لمخالفة القواعد والخدمات العمالية",
       "link": "https://www.alyaum.com/articles/6689665/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%B6%D8%A8%D8%B7-67-%D9%85%D9%83%D8%AA%D8%A8-%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85-%D9%84%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%A9-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%B9%D8%AF-%D9%88%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D9%8A%D8%A9",
