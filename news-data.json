@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T11:29:50.792Z",
+  "lastUpdated": "2026-11-10T18:46:35.861Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,7 +11,7 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 3,
+      "itemCount": 1,
       "error": null
     }
   ],
@@ -19,26 +19,10 @@
   "droppedForFreshness": 50,
   "items": [
     {
-      "title": "10 فرص استثمارية تطرح اليوم في \"معرض التطبيقات الالكترونية 2026\"",
-      "link": "https://www.alyaum.com/articles/6690338/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/10-%D9%81%D8%B1%D8%B5-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D9%8A%D8%A9-%D8%AA%D8%B7%D8%B1%D8%AD-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%81%D9%8A-%D9%85%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-2026",
-      "pubDate": "Tue, 10 Nov 2026 07:38:00 +0300",
-      "contentSnippet": "<p>تطلق غرفة الشرقية ممثلة بمركز المنشآت الصغيرة والمتوسطة، عصر اليوم الثلاثاء 10 نوفمبر ويستمر حتى الأربعاء 11 نوفمبر فعاليات معرض التطبيقات الالكترونية 2026 برعاية صاحب السمو الملكي الأمير سعود بن نايف بن عبدالعزيز آل سعود أمير المنطقة الشرقية.</p><p>ويستمر المعرض الذي يقام في مقر الغرفة الرئيس لمدة يومين من الساعة الرابعة عصراً وحتى التاسعة مساء بمشاركة عدد من المختصين والمهتمين في مجال التطبيق",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "استهدفت ثلاجات.. فرنسا تحقق في ضلوع مجموعة إيرانية بهجمات إلكترونية",
-      "link": "https://www.alyaum.com/articles/6690295/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%AA-%D8%AB%D9%84%D8%A7%D8%AC%D8%A7%D8%AA-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D8%AA%D8%AD%D9%82%D9%82-%D9%81%D9%8A-%D8%B6%D9%84%D9%88%D8%B9-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D8%A8%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9",
-      "pubDate": "Mon, 09 Nov 2026 20:00:00 +0300",
-      "contentSnippet": "أعلنت <a href=\"https://www.alyaum.com/articles/6690286/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%85%D8%A7%D9%84-%D9%88%D8%A3%D8%B9%D9%85%D8%A7%D9%84/%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D8%AA%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%AD%D8%AF-%D8%A7%D9%84%D8%A3%D8%AF%D9%86%D9%89-%D9%84%D9%84%D8%A3%D8%AC%D9%88%D8%B1-16-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7-%D9%85%D9%86-%D8%AF%D9%8A%D8%B3%D9%85%D",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "إلكترونيًا.. حجز مواعيد الفحص الطبي للعمالة المنزلية الوافدة حديثًا",
-      "link": "https://www.alyaum.com/articles/6690291/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A7-%D8%AD%D8%AC%D8%B2-%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D9%81%D8%AD%D8%B5-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A-%D9%84%D9%84%D8%B9%D9%85%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%A7%D9%81%D8%AF%D8%A9-%D8%AD%D8%AF%D9%8A%D8%AB%D8%A7",
-      "pubDate": "Mon, 09 Nov 2026 19:50:00 +0300",
-      "contentSnippet": "أتاحت <a href=\"https://www.alyaum.com/articles/6690126/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%AA%D9%88%D8%B7%D9%8A%D9%86-35-%D9%85%D9%86-94-%D9%85%D9%87%D9%86%D8%A9-%D9%81%D9%86%D9%8A%D8%A9-%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5-%D8%A8%D8%AF%D8%A",
+      "title": "6 منافع تغطيها وثيقة الضمان الصحي للعمالة المنزلية",
+      "link": "https://www.alyaum.com/articles/6690394/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/6-%D9%85%D9%86%D8%A7%D9%81%D8%B9-%D8%AA%D8%BA%D8%B7%D9%8A%D9%87%D8%A7-%D9%88%D8%AB%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%B6%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-%D9%84%D9%84%D8%B9%D9%85%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9",
+      "pubDate": "Tue, 10 Nov 2026 13:41:00 +0300",
+      "contentSnippet": "<div style=\"text-align: justify;\">تشمل التغطية الصحية التي يقدمها مجلس <a href=\"https://www.alyaum.com/articles/6686214/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9/%D8%B5%D8%AD%D8%A9-%D9%88%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9/%D9%84%D8%A3%D9%86%D9%87%D8%A7-%D8%AC%D8%B2%D8%A1-%D9%85%D9%86-%D8%AC%D9%88%D8%AF%D8%A9-%D8%AD%D9%8A%D8%A7%D8%AA%D9%83-%D9%86%D8%B5%D8%A7%D8%A6%D8%AD-%D8%A7%D9%84%D8%AD%D9%81%D8%A7%D8%B8-",
       "source": "صحيفة اليوم",
       "sourceId": "alyaum_rss"
     }
