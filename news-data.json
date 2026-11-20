@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T08:00:30.053Z",
+  "lastUpdated": "2026-11-20T17:05:38.328Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,13 +11,21 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 3,
+      "itemCount": 4,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
   "items": [
+    {
+      "title": "البرلمان العربي: اعتداءات ميليشيا الحوثي على المنشآت المدنية إرهاب ممنهج",
+      "link": "https://www.alyaum.com/articles/6691634/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D8%A9-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8-%D9%85%D9%85%D9%86%D9%87%D8%AC",
+      "pubDate": "Fri, 20 Nov 2026 04:21:00 +0300",
+      "contentSnippet": "أدان<a href=\"https://www.alyaum.com/articles/6691549/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D9%84%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%88%D8%B3%D8%B7-%D8%BA%D8%B2%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
     {
       "title": "نهج إرهابي يستهدف المدنيين.. اليمن يدين الهجوم الحوثي على الرياض",
       "link": "https://www.alyaum.com/articles/6691627/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%86%D9%87%D8%AC-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D9%8A%D9%86-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%8A%D8%AF%D9%8A%D9%86-%D8%A7%D9%84%D9%87%D8%AC%D9%88%D9%85-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
