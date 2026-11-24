@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T06:14:29.852Z",
+  "lastUpdated": "2026-11-24T18:03:49.082Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,7 +11,7 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 2,
+      "itemCount": 3,
       "error": null
     }
   ],
@@ -19,18 +19,26 @@
   "droppedForFreshness": 50,
   "items": [
     {
-      "title": "رابطة العالم الإسلامي تُدين الهجمات التي استهدفت الخرطوم",
-      "link": "https://www.alyaum.com/articles/6691970/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%B1%D8%A7%D8%A8%D8%B7%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A7%D9%84%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%8A-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%AA-%D8%A7%D9%84%D8%AE%D8%B1%D8%B7%D9%88%D9%85",
-      "pubDate": "Mon, 23 Nov 2026 15:51:00 +0300",
-      "contentSnippet": "أدانت <a href=\"https://www.alyaum.com/articles/6691893/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%B1%D8%A7%D8%A8%D8%B7%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%",
+      "title": "60 مخالفة في الأسواق والمنشآت الغذائية بمليجة خلال 10 أشهر",
+      "link": "https://www.alyaum.com/articles/6692067/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/60-%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D9%88%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A8%D9%85%D9%84%D9%8A%D8%AC%D8%A9-%D8%AE%D9%84%D8%A7%D9%84-10-%D8%A3%D8%B4%D9%87%D8%B1",
+      "pubDate": "Tue, 24 Nov 2026 12:52:00 +0300",
+      "contentSnippet": "نفذت <a href=\"https://www.alyaum.com/articles/6690835/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A3%D9%85%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%AA%D8%AD%D9%82%D9%82-%D8%A7%D9%84%D9%86%D8%B6%D8%AC-%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D9%8A-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D9%88%D8%AA%D8%B7%",
       "source": "صحيفة اليوم",
       "sourceId": "alyaum_rss"
     },
     {
-      "title": "باحث تربوي: تمكين المعلم المتميز معيار نجاح الشراكة مع القطاع الخاص",
-      "link": "https://www.alyaum.com/articles/6691962/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A8%D8%A7%D8%AD%D8%AB-%D8%AA%D8%B1%D8%A8%D9%88%D9%8A-%D8%AA%D9%85%D9%83%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D9%85%D9%8A%D8%B2-%D9%85%D8%B9%D9%8A%D8%A7%D8%B1-%D9%86%D8%AC%D8%A7%D8%AD-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5",
-      "pubDate": "Mon, 23 Nov 2026 15:23:00 +0300",
-      "contentSnippet": "تتطلب التحولات الجديدة في تشغيل المدارس والشراكة مع القطاع الخاص تمكين <a href=\"https://www.alyaum.com/articles/6691847/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-19-%D8%B9%D9%86%D8%B5%D8%B1%D8%A7-%D9%84%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D9%85%D8%AF%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%AF",
+      "title": "بأمر ملكي.. صرف تعويض «ساند» للعاملين السعوديين في المنشآت المتأثرة لمدة تصل إلى 3 أشهر",
+      "link": "https://www.alyaum.com/articles/6692057/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A8%D8%A3%D9%85%D8%B1-%D9%85%D9%84%D9%83%D9%8A-%D8%B5%D8%B1%D9%81-%D8%AA%D8%B9%D9%88%D9%8A%D8%B6-%D8%B3%D8%A7%D9%86%D8%AF-%D9%84%D9%84%D8%B9%D8%A7%D9%85%D9%84%D9%8A%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%A3%D8%AB%D8%B1%D8%A9-%D9%84%D9%85%D8%AF%D8%A9-%D8%AA%D8%B5%D9%84-%D8%A5%D9%84%D9%89-3-%D8%A3%D8%B4%D9%87%D8%B1",
+      "pubDate": "Tue, 24 Nov 2026 11:45:00 +0300",
+      "contentSnippet": "صدر أمر <a href=\"https://www.alyaum.com/articles/6691057/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%AE%D8%A7%D8%AF%D9%85-%D8%A7%D9%84%D8%AD%D8%B1%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D9%81%D9%8A%D9%86-%D9%8A%D8%A3%D9%85%D8%B1-%D8%A8%D8%AA%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-167-%D9%82",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
+    {
+      "title": "نقابات النسيج في بنجلادش تعتبر الزيادة المقترحة للأجور غير كافية",
+      "link": "https://www.alyaum.com/articles/6692015/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%86%D9%82%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D8%AC-%D9%81%D9%8A-%D8%A8%D9%86%D8%AC%D9%84%D8%A7%D8%AF%D8%B4-%D8%AA%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A7%D9%84%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%B1%D8%AD%D8%A9-%D9%84%D9%84%D8%A3%D8%AC%D9%88%D8%B1-%D8%BA%D9%8A%D8%B1-%D9%83%D8%A7%D9%81%D9%8A%D8%A9",
+      "pubDate": "Tue, 24 Nov 2026 01:00:00 +0300",
+      "contentSnippet": "أكد ممثل <a href=\"https://www.alyaum.com/articles/6691894/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D8%B5%D9%86%D8%B9%D9%88-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3-%D9%81%D9%8A-%D8%A8%D9%86%D8%AC%D9%84%D8%A7%D8%AF%D8%B4-%D9%8A%D9%82%D8%AF%D8%B1%D9%88%D9%86-%D8%AE%D8%B3%D8%A7%D8%A6%D8%B1-%D8%A7%D9%84%D8%A5%D8%B6%D8%B1%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A8428",
       "source": "صحيفة اليوم",
       "sourceId": "alyaum_rss"
     }
