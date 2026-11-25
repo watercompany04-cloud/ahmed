@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T12:01:57.856Z",
+  "lastUpdated": "2026-11-25T21:53:26.404Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,7 +11,7 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 2,
+      "itemCount": 6,
       "error": null
     }
   ],
@@ -19,18 +19,50 @@
   "droppedForFreshness": 50,
   "items": [
     {
-      "title": "الضمان الاجتماعي.. ما هي مراحل المسار التعليمي للمستفيد القادر على العمل؟",
-      "link": "https://www.alyaum.com/articles/6692099/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%B6%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A-%D9%85%D8%A7-%D9%87%D9%8A-%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A-%D9%84%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B1-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B9%D9%85%D9%84",
-      "pubDate": "Tue, 24 Nov 2026 17:30:00 +0300",
-      "contentSnippet": "<div style=\"text-align: justify;\">يتيح برنامج الضمان الاجتماعي التابع لوزارة الموارد البشرية والتنمية الاجتماعية، مساراً تعليمياً ضمن مسارات التمكين، يستهدف المستفيدين القادرين على العمل، ويهدف إلى دعمهم في استكمال رحلتهم التعليمية من خلال الالتحاق بالجامعات والمعاهد والكليات.<br /><br />ويمر المسار التعليمي بعدة مراحل، تبدأ باختيار المستفيد وفق شروط ومعايير القبول، ثم تقديم دورات تأهيلية لتحديد ا",
+      "title": "نائب وزير البيئة: استثمارات القطاع الخاص الزراعية تجاوزت 60 مليار ريال",
+      "link": "https://www.alyaum.com/articles/6692219/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%86%D8%A7%D8%A6%D8%A8-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D8%A9-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5-%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9-%D8%AA%D8%AC%D8%A7%D9%88%D8%B2%D8%AA-60-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%B1%D9%8A%D8%A7%D9%84",
+      "pubDate": "Wed, 25 Nov 2026 14:38:00 +0300",
+      "contentSnippet": "أكد نائب <a href=\"https://www.alyaum.com/articles/6691214/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D9%85%D8%B4%D9%8A%D8%B7%D9%8A-%D9%8A%D8%A4%D9%83%D8%AF-%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A-%D9%81%D9%8A-%D8%AA%D8%AD%D9%82%D9%8A%D9%82-%D",
       "source": "صحيفة اليوم",
       "sourceId": "alyaum_rss"
     },
     {
-      "title": "60 مخالفة في الأسواق والمنشآت الغذائية بمليجة خلال 10 أشهر",
-      "link": "https://www.alyaum.com/articles/6692067/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/60-%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D9%88%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A8%D9%85%D9%84%D9%8A%D8%AC%D8%A9-%D8%AE%D9%84%D8%A7%D9%84-10-%D8%A3%D8%B4%D9%87%D8%B1",
-      "pubDate": "Tue, 24 Nov 2026 12:52:00 +0300",
-      "contentSnippet": "نفذت <a href=\"https://www.alyaum.com/articles/6690835/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A3%D9%85%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%AA%D8%AD%D9%82%D9%82-%D8%A7%D9%84%D9%86%D8%B6%D8%AC-%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D9%8A-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D9%88%D8%AA%D8%B7%",
+      "title": "عاجل - 15 ديسمبر.. إعلان نتائج اختبار الرخص المهنية للوظائف التعليمية",
+      "link": "https://www.alyaum.com/articles/6692195/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%B9%D8%A7%D8%AC%D9%84-15-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%B1%D8%AE%D8%B5-%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A%D8%A9-%D9%84%D9%84%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9",
+      "pubDate": "Wed, 25 Nov 2026 13:28:00 +0300",
+      "contentSnippet": "حددت <a href=\"https://www.alyaum.com/articles/6691018/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%AA%D9%82%D9%88%D9%8A%D9%85-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%AA%D8%B9%D9%84%D9%86-%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%B1%D8%AE%D8%B5%D8%A9-%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A%D8%A9-%D9%88%D8%A8%",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
+    {
+      "title": "11.2 مليون مشترك في شريحة 5 آلاف ريال و160 ألفاً بأجور تتجاوز 40 ألفاً",
+      "link": "https://www.alyaum.com/articles/6692192/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/112-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%85%D8%B4%D8%AA%D8%B1%D9%83-%D9%81%D9%8A-%D8%B4%D8%B1%D9%8A%D8%AD%D8%A9-5-%D8%A2%D9%84%D8%A7%D9%81-%D8%B1%D9%8A%D8%A7%D9%84-%D9%88160-%D8%A3%D9%84%D9%81%D8%A7-%D8%A8%D8%A3%D8%AC%D9%88%D8%B1-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-40-%D8%A3%D9%84%D9%81%D8%A7",
+      "pubDate": "Wed, 25 Nov 2026 12:33:00 +0300",
+      "contentSnippet": "<p>كشفت بيانات <a href=\"https://www.alyaum.com/articles/6687984/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D8%AD%D8%AF%D8%AB-%D8%B5%D9%81%D8%AD%D8%A9-%D9%84%D9%84%D8%A3%D8%AE%D8%B7%D8%A7%D8%B",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
+    {
+      "title": "التجارة.. 14 ألف جولة للتحقق من التزام المنشآت بالتخفيضات خلال نوفمبر",
+      "link": "https://www.alyaum.com/articles/6692220/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-14-%D8%A3%D9%84%D9%81-%D8%AC%D9%88%D9%84%D8%A9-%D9%84%D9%84%D8%AA%D8%AD%D9%82%D9%82-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A8%D8%A7%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D8%B6%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1",
+      "pubDate": "Wed, 25 Nov 2026 12:00:00 +0300",
+      "contentSnippet": "نفذت <a href=\"https://www.alyaum.com/articles/6692077/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%85%D8%A7%D9%84-%D9%88%D8%A3%D8%B9%D9%85%D8%A7%D9%84/%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%8A%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D8%A3%D9%86%D8%B4%D8%B7%D8%A9-%D8%A7%D9%84%D9%88%D8%A7%D8%B9%D8%AF%D",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
+    {
+      "title": "رفع الحد الأدنى لأجور عمال النسيج في بنجلادش بنسبة 36%",
+      "link": "https://www.alyaum.com/articles/6692187/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%AD%D8%AF-%D8%A7%D9%84%D8%A3%D8%AF%D9%86%D9%89-%D9%84%D8%A3%D8%AC%D9%88%D8%B1-%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D8%AC-%D9%81%D9%8A-%D8%A8%D9%86%D8%AC%D9%84%D8%A7%D8%AF%D8%B4-%D8%A8%D9%86%D8%B3%D8%A8%D8%A9-36",
+      "pubDate": "Wed, 25 Nov 2026 11:20:00 +0300",
+      "contentSnippet": "حصل <a href=\"https://www.alyaum.com/articles/6691894/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D8%B5%D9%86%D8%B9%D9%88-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3-%D9%81%D9%8A-%D8%A8%D9%86%D8%AC%D9%84%D8%A7%D8%AF%D8%B4-%D9%8A%D9%82%D8%AF%D8%B1%D9%88%D9%86-%D8%AE%D8%B3%D8%A7%D8%A6%D8%B1-%D8%A7%D9%84%D8%A5%D8%B6%D8%B1%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A8428-%D9%",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
+    {
+      "title": "التحالف: استهدفنا قدرات تشغيلية في ميناء الحديدة ودمرنا أهدافًا بصعدة وعمران",
+      "link": "https://www.alyaum.com/articles/6692154/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D9%86%D8%A7-%D9%82%D8%AF%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF%D8%A9-%D9%88%D8%AF%D9%85%D8%B1%D9%86%D8%A7-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D8%A8%D8%B5%D8%B9%D8%AF%D8%A9-%D9%88%D8%B9%D9%85%D8%B1%D8%A7%D9%86",
+      "pubDate": "Wed, 25 Nov 2026 05:49:00 +0300",
+      "contentSnippet": "أعلن <a href=\"https://www.alyaum.com/articles/6692133/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D9%84%D9%87%D8%AC%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A-%D8%B9%D9%84%D9%89-%D8%A3%D8%AD%D8%AF-%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC-%D8%A7%D9%84%D9%85%D8%B1%D9%83%",
       "source": "صحيفة اليوم",
       "sourceId": "alyaum_rss"
     }
