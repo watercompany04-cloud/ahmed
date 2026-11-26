@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T21:53:26.404Z",
+  "lastUpdated": "2026-11-26T03:54:55.926Z",
   "freshnessPolicy": "آخر 4 شهور فقط",
   "sourcesStatus": [
     {
@@ -11,13 +11,29 @@
     {
       "sourceId": "alyaum_rss",
       "ok": true,
-      "itemCount": 6,
+      "itemCount": 5,
       "error": null
     }
   ],
   "discoveredCandidates": [],
   "droppedForFreshness": 50,
   "items": [
+    {
+      "title": "البلديات والإسكان: 80 ألف وحدة سكنية وأرض مطورة ضمن مستهدفات 2027",
+      "link": "https://www.alyaum.com/articles/6692243/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86-80-%D8%A3%D9%84%D9%81-%D9%88%D8%AD%D8%AF%D8%A9-%D8%B3%D9%83%D9%86%D9%8A%D8%A9-%D9%88%D8%A3%D8%B1%D8%B6-%D9%85%D8%B7%D9%88%D8%B1%D8%A9-%D8%B6%D9%85%D9%86-%D9%85%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%A7%D8%AA-2027",
+      "pubDate": "Wed, 25 Nov 2026 20:22:00 +0300",
+      "contentSnippet": "أوضحت <a href=\"https://www.alyaum.com/articles/6691870/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB-%D9%86%D8%B7%D8%A7%D9%82%D8%A7%D8%AA-%D8%B1%D8%B3%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A7%D8%B6%D9%8A-%D8%A7%D9%84%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-10-%D9",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
+    {
+      "title": "NHC Innovation شريك في مسيرة الريادة العالمية للمملكة في الحكومة الرقمية",
+      "link": "https://www.alyaum.com/articles/6692227/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/NHC-Innovation-%D8%B4%D8%B1%D9%8A%D9%83-%D9%81%D9%8A-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9",
+      "pubDate": "Wed, 25 Nov 2026 16:50:00 +0300",
+      "contentSnippet": "كرّمت هيئة الحكومة الرقمية شركة NHC Innovation، ضمن شركاء النجاح من القطاع الخاص، تقديرًا لإسهاماتها في دعم الابتكار وتسريع التحول الرقمي، وذلك بمناسبة تحقيق المملكة العربية السعودية المركز الأول عالميًا في الخدمات الحكومية الرقمية، وتجاوزها مستهدف رؤية السعودية 2030، وفقًا لمؤشر تطور الحكومة الإلكترونية الصادر عن الأمم المتحدة.<br /><br />ويأتي هذا التكريم تقديرًا للدور الذي تؤديه NHC Innovation ",
+      "source": "صحيفة اليوم",
+      "sourceId": "alyaum_rss"
+    },
     {
       "title": "نائب وزير البيئة: استثمارات القطاع الخاص الزراعية تجاوزت 60 مليار ريال",
       "link": "https://www.alyaum.com/articles/6692219/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%86%D8%A7%D8%A6%D8%A8-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D8%A9-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5-%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9-%D8%AA%D8%AC%D8%A7%D9%88%D8%B2%D8%AA-60-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%B1%D9%8A%D8%A7%D9%84",
@@ -39,30 +55,6 @@
       "link": "https://www.alyaum.com/articles/6692192/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/112-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%85%D8%B4%D8%AA%D8%B1%D9%83-%D9%81%D9%8A-%D8%B4%D8%B1%D9%8A%D8%AD%D8%A9-5-%D8%A2%D9%84%D8%A7%D9%81-%D8%B1%D9%8A%D8%A7%D9%84-%D9%88160-%D8%A3%D9%84%D9%81%D8%A7-%D8%A8%D8%A3%D8%AC%D9%88%D8%B1-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-40-%D8%A3%D9%84%D9%81%D8%A7",
       "pubDate": "Wed, 25 Nov 2026 12:33:00 +0300",
       "contentSnippet": "<p>كشفت بيانات <a href=\"https://www.alyaum.com/articles/6687984/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D8%AD%D8%AF%D8%AB-%D8%B5%D9%81%D8%AD%D8%A9-%D9%84%D9%84%D8%A3%D8%AE%D8%B7%D8%A7%D8%B",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "التجارة.. 14 ألف جولة للتحقق من التزام المنشآت بالتخفيضات خلال نوفمبر",
-      "link": "https://www.alyaum.com/articles/6692220/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-14-%D8%A3%D9%84%D9%81-%D8%AC%D9%88%D9%84%D8%A9-%D9%84%D9%84%D8%AA%D8%AD%D9%82%D9%82-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A8%D8%A7%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D8%B6%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1",
-      "pubDate": "Wed, 25 Nov 2026 12:00:00 +0300",
-      "contentSnippet": "نفذت <a href=\"https://www.alyaum.com/articles/6692077/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%85%D8%A7%D9%84-%D9%88%D8%A3%D8%B9%D9%85%D8%A7%D9%84/%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%8A%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D8%A3%D9%86%D8%B4%D8%B7%D8%A9-%D8%A7%D9%84%D9%88%D8%A7%D8%B9%D8%AF%D",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "رفع الحد الأدنى لأجور عمال النسيج في بنجلادش بنسبة 36%",
-      "link": "https://www.alyaum.com/articles/6692187/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%AD%D8%AF-%D8%A7%D9%84%D8%A3%D8%AF%D9%86%D9%89-%D9%84%D8%A3%D8%AC%D9%88%D8%B1-%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D8%AC-%D9%81%D9%8A-%D8%A8%D9%86%D8%AC%D9%84%D8%A7%D8%AF%D8%B4-%D8%A8%D9%86%D8%B3%D8%A8%D8%A9-36",
-      "pubDate": "Wed, 25 Nov 2026 11:20:00 +0300",
-      "contentSnippet": "حصل <a href=\"https://www.alyaum.com/articles/6691894/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D8%B5%D9%86%D8%B9%D9%88-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3-%D9%81%D9%8A-%D8%A8%D9%86%D8%AC%D9%84%D8%A7%D8%AF%D8%B4-%D9%8A%D9%82%D8%AF%D8%B1%D9%88%D9%86-%D8%AE%D8%B3%D8%A7%D8%A6%D8%B1-%D8%A7%D9%84%D8%A5%D8%B6%D8%B1%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A8428-%D9%",
-      "source": "صحيفة اليوم",
-      "sourceId": "alyaum_rss"
-    },
-    {
-      "title": "التحالف: استهدفنا قدرات تشغيلية في ميناء الحديدة ودمرنا أهدافًا بصعدة وعمران",
-      "link": "https://www.alyaum.com/articles/6692154/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D9%86%D8%A7-%D9%82%D8%AF%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF%D8%A9-%D9%88%D8%AF%D9%85%D8%B1%D9%86%D8%A7-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D8%A8%D8%B5%D8%B9%D8%AF%D8%A9-%D9%88%D8%B9%D9%85%D8%B1%D8%A7%D9%86",
-      "pubDate": "Wed, 25 Nov 2026 05:49:00 +0300",
-      "contentSnippet": "أعلن <a href=\"https://www.alyaum.com/articles/6692133/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D9%84%D9%87%D8%AC%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A-%D8%B9%D9%84%D9%89-%D8%A3%D8%AD%D8%AF-%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC-%D8%A7%D9%84%D9%85%D8%B1%D9%83%",
       "source": "صحيفة اليوم",
       "sourceId": "alyaum_rss"
     }
